@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://patrickcap.github.io/me/al-folio/sitemap.xml
+Sitemap: https://patrickcap.github.io/me/me//sitemap.xml
