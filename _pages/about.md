@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Me online.
+subtitle: Me, online.
 
 profile:
   align: right
