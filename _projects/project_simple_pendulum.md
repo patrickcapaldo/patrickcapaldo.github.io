@@ -9,7 +9,7 @@ category: fun
 
 ## Animation
 
-The animation shown in Figure 1 was created using the Pygame library for Python.
+The animation shown in Figure 1 was created using the Pygame library for Python. The GitHub code for this can be found at <a href="https://github.com/patrickcap/dynamics-fun/blob/main/oscillatingPendulum.py">this</a> repository.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -22,7 +22,7 @@ The animation shown in Figure 1 was created using the Pygame library for Python.
 
 ## Python Code
 
-Figure 2 displays the Python code I wrote to create the animation.
+Below displays the Python code I wrote to create the animation.
 
 {% raw %}
 ```python
