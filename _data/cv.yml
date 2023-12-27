@@ -126,16 +126,12 @@
   contents:
     - year: 2022
       items: 
-        - <b>Executive Dean's Recognition of Academic Excellence</b>
-          Issued by University of Adelaide, Faculty of Engineering, Computer and Mathematical Sciences · Mar 2022 | This annual award by the Faculty recognises exceptional academic achievement for undergraduate and postgraduate coursework students throughout their study.
-        - <b>The R.J. Jennings Memorial Prize for Mechanical Engineering Design</b>
-          Issued by The University of Adelaide · Feb 2022 | Most distinguished student in the Honours Project of the Bachelor of Engineering (Honours) (Mechanical).
+        - "<b>Executive Dean's Recognition of Academic Excellence</b> | Issued by University of Adelaide, Faculty of Engineering, Computer and Mathematical Sciences · Mar 2022 | This annual award by the Faculty recognises exceptional academic achievement for undergraduate and postgraduate coursework students throughout their study."
+        - "<b>The R.J. Jennings Memorial Prize for Mechanical Engineering Design</b> | Issued by The University of Adelaide · Feb 2022 | Most distinguished student in the Honours Project of the Bachelor of Engineering (Honours) (Mechanical)."
     - year: 2021
       items: 
-        - "<b>Certificate of Completion: Summer Vacation Placement Programme</b>"
-          Issued by Chief Defence Scientist, Defence Science and Technology Group, Prof Tanya Monro · Feb 2021 | For successfully completing a Defence Science and Technology Summer Vacation Placement Programme. By Completing this placement you have demonstrated that you can apply your knowledge and expertise to address Defence challenges; articulate and present your research to an educate and informed audience; and observe and abide by the strict protocols that govern Defence research. Through your involvement in this program you have made an important contribution to Australia's Defence capability and are now part of a diverse STEM talent pool that can help move Defence towards a high-tech future.
-        - <b>The Dr Gerald Schneider Subject Prize in Aeronautical Engineering</b>
-          Issued by University of Adelaide, Faculty of Engineering, Computer and Mathematical Sciences · Mar 2021 | The prize is awarded annually by the University of Adelaide to eligible students enrolled in the Bachelor of Engineering (Honours) (Mechanical and Aerospace) degree program or associated double degrees. The Head of the School of Mechanical Engineering will award the prize to the student who obtains the best overall result in the course MECH ENG 3100 Aeronautical Engineering.
+        - "<b>Certificate of Completion: Summer Vacation Placement Programme</b> | Issued by Chief Defence Scientist, Defence Science and Technology Group, Prof Tanya Monro · Feb 2021 | For successfully completing a Defence Science and Technology Summer Vacation Placement Programme. By Completing this placement you have demonstrated that you can apply your knowledge and expertise to address Defence challenges; articulate and present your research to an educate and informed audience; and observe and abide by the strict protocols that govern Defence research. Through your involvement in this program you have made an important contribution to Australia's Defence capability and are now part of a diverse STEM talent pool that can help move Defence towards a high-tech future."
+        - "<b>The Dr Gerald Schneider Subject Prize in Aeronautical Engineering</b> | Issued by University of Adelaide, Faculty of Engineering, Computer and Mathematical Sciences · Mar 2021 | The prize is awarded annually by the University of Adelaide to eligible students enrolled in the Bachelor of Engineering (Honours) (Mechanical and Aerospace) degree program or associated double degrees. The Head of the School of Mechanical Engineering will award the prize to the student who obtains the best overall result in the course MECH ENG 3100 Aeronautical Engineering."
 
 - title: Licenses and Certifications
   type: time_table
