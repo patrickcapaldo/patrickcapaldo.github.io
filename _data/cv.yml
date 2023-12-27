@@ -13,18 +13,24 @@
       institution: Swiss Federal Institute of Technology Lausanne (École Polytechnique Fédérale de Lausanne)
       year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Claude Nicollier, one of the first ESA astronauts, builds on university level physics and mechanics to introduce and illustrate orbital dynamics as they are applied in the design of space missions.
+        - Fundamental laws of mechanics and orbital mechanics
+        - Orbital maneuvers
+        - Types of space missions and their objectives
+        - Space environment
+        - General concepts of space vehicle architecture
+        - Propulsion
+        - Attitude determination and control
+        - Onboard systems
+        - Risk management and reliability
+        - Key design elements for successful missions, in particular related to human spaceflight
     - title: Astrophysics Course
       institution: University of South Australia, Adelaide Planetarium
       year: 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Astronomy aided by the Adelaide Planetarium's 8 metre dome.
+        - Observational and theoretical astrophysics
+        - Stellar evolution, black holes, Einstein's Relativity, particle physics.
     - title: Bachelor of Engineering (Honours) (Mechanical & Aerospace) with Bachelor of Mathematical Computer Sciences (Computer Science Major)
       institution: University of Adelaide
       year: 2022
@@ -36,9 +42,7 @@
     - title: Semester Study Exchange (England)
       institution: University of Southampton
       year: 2019
-      description:
-        - Description 1.
-        - Description 2.
+
 
 
 - title: Experience
