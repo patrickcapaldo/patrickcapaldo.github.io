@@ -11,7 +11,7 @@
   contents:
     - title: Space Mission Design and Operations (EE585x)
       institution: Swiss Federal Institute of Technology Lausanne (École Polytechnique Fédérale de Lausanne)
-      year: 2023
+      year: May 2023 - July 2023
       description:
         - Claude Nicollier, one of the first ESA astronauts, builds on university level physics and mechanics to introduce and illustrate orbital dynamics as they are applied in the design of space missions.
         - Fundamental laws of mechanics and orbital mechanics
@@ -24,91 +24,130 @@
         - Onboard systems
         - Risk management and reliability
         - Key design elements for successful missions, in particular related to human spaceflight
+      
     - title: Astrophysics Course
       institution: University of South Australia, Adelaide Planetarium
-      year: 2023
+      year: May 2023 - July 2023
       description:
         - Astronomy aided by the Adelaide Planetarium's 8 metre dome.
         - Observational and theoretical astrophysics
         - Stellar evolution, black holes, Einstein's Relativity, particle physics.
+      
     - title: Bachelor of Engineering (Honours) (Mechanical & Aerospace) with Bachelor of Mathematical Computer Sciences (Computer Science Major)
       institution: University of Adelaide
-      year: 2022
+      year: Mar 2018 - Dec 2022
       description:
         - "DWAM: 98.1%, First Class Honours"
         - "Honours Project (UAV PHORESIS): Completed (HD 95/100), 1st Place at Adelaide University Undergraduate Research Conference and in 2021 cohort."
         - R.J. Jennings Memorial Prize for Mechanical Engineering Design
         - Dr Gerald Schneider Prize in Aeronautical Engineering
+      
     - title: Semester Study Exchange (England)
       institution: University of Southampton
-      year: 2019
-
+      year: Oct 2019 - Jan 2020
 
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Machine Learning Software Engineer
+      institution: Airbus Operations UK Ltd
+      year: Sep 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Training with an end-to-end machine learning project to predict airline delays.
+
+    - title: Aerospace Technical Network Support
+      institution: IET Aerospace Technical Network
+      year: Jan 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Supporting the growth of the IET's Aerospace Technical Network which aims to bring together experts from aerospace-related fields and facilitate discussions about recent industry developments or collaborative ventures between those attending.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: University Representative
+      institution: IET South Australia & Northern Territory Young Professionals
+      year: Nov 2021 - Dec 2022
       description:
+        - Liaising with the other IET South Australia & Northern Territory committee members to provide updates on the status of the Adelaide University IET On Campus, upcoming events, membership forecasts, growth ideas.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Associate Software Engineer
+      institution: Lockheed Martin Australia
+      year: Feb 2023 - Aug 2023
+      description:
+        - "Full stack web application development:"
+        - Angular, HTML, CSS, TypeScript/JavaScript
+        - WebSocket
+        - Python, Node.js
 
-- title: Open Source Projects
+    - title: STEM Cadet
+      institution: Defence Science and Technology Group (DSTG)
+      year: Mar 2021 - Feb 2023
+
+    - title: Summer Intern
+      institution: Defence Science and Technology Group (DSTG)
+      year: Dec 2020 - Feb 2021
+
+    - title: President
+      institution: IET Adelaide University On Campus 
+      year: Nov 2021 - Dec 2022
+      description:
+        - Strategically planning the expected path of the Club in accordance with the Club’s values, goals, and the suggestions of other Committee members. Putting people first.
+      
+    - title: Founder and Secretary
+      institution: IET Adelaide University On Campus 
+      year: Dec 2020 - Nov 2021
+      description:
+        - "Ensuring that the club operates efficiently and ethically whilst supporting the smooth operation of the management committee. My roles include:"
+        - Liaising with the President and Vice-President to organise committee meetings;
+        - Communicating with all committee members to plan agenda items;
+        - Creating and filing meeting minutes to record discussions, actions, results and future goals;
+        - Keeping an up-to-date record of important contact details for the committee and for specific events (e.g. safety officers and volunteers).
+    
+    - title: Rocket Recovery Technical Team Member
+      institution: Adept Rocketry Division
+      year: Mar 2021 - Nov 2021
+      description:
+        - Ensuring the safe and controlled descent and landing of the rocket once it has achieved its apogee. After this, locating and collecting the rocket in a timely manner such that it could possibly be re-launched within 24 hours.
+
+    - title: Undergraduate Research Assistant
+      institution: University of Adelaide
+      year: Jul 2020 - Oct 2020
+      description:
+        - Researching methods to minimise wind loads on heliostat arrays. Performing experiments on scaled heliostats of various sizes at Thebarton Wind Tunnel. Learning about academic research paradigms and effective experimental methods.
+
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honours and Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2022
+      items: 
+        - Executive Dean's Recognition of Academic Excellence | Issued by University of Adelaide, Faculty of Engineering, Computer and Mathematical Sciences · Mar 2022 | This annual award by the Faculty recognises exceptional academic achievement for undergraduate and postgraduate coursework students throughout their study.
+        - The R.J. Jennings Memorial Prize for Mechanical Engineering Design | Issued by The University of Adelaide · Feb 2022 | Most distinguished student in the Honours Project of the Bachelor of Engineering (Honours) (Mechanical).
+    - year: 2021
+      items: 
+        - "Certificate of Completion: Summer Vacation Placement Programme | Issued by Chief Defence Scientist, Defence Science and Technology Group, Prof Tanya Monro · Feb 2021 | For successfully completing a Defence Science and Technology Summer Vacation Placement Programme. By Completing this placement you have demonstrated that you can apply your knowledge and expertise to address Defence challenges; articulate and present your research to an educate and informed audience; and observe and abide by the strict protocols that govern Defence research. Through your involvement in this program you have made an important contribution to Australia's Defence capability and are now part of a diverse STEM talent pool that can help move Defence towards a high-tech future."
+        - The Dr Gerald Schneider Subject Prize in Aeronautical Engineering | Issued by University of Adelaide, Faculty of Engineering, Computer and Mathematical Sciences · Mar 2021 | The prize is awarded annually by the University of Adelaide to eligible students enrolled in the Bachelor of Engineering (Honours) (Mechanical and Aerospace) degree program or associated double degrees. The Head of the School of Mechanical Engineering will award the prize to the student who obtains the best overall result in the course MECH ENG 3100 Aeronautical Engineering.
 
-- title: Honors and Awards
+- title: Licenses and Certifications
   type: time_table
   contents:
-    - year: 1921
+    - year: Nov 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Aeronautical Radio Operator Certificate (AROC) | Civil Aviation Safety Authority (CASA)
+        - Sub 7-kg Remote Pilot License (RePL) | Civil Aviation Safety Authority (CASA)
+    - year: Dec 2019
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - General Member | Institution of Engineering and Technology (IET)
+    - year: Feb 2018
       items:
-        - Description 1.
-        - Description 2.
+        - Student Member | Engineers Australia
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "Hobbies: Drumming, space exploration, science communication."
