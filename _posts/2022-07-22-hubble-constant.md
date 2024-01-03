@@ -50,12 +50,11 @@ _styles: >
 
 ---
 
-In the 1920's Edwin Hubble discovered that the universe is expanding by noticing that the vast majority of galaxies were receding away from us (by measuring their distance using [universal measuring sticks](_posts/2022-05-17-tutorial-universal-measuring-sticks) and their redshift) and that further away galaxies were receding faster. The Hubble constant is a measurement of the rate of this expansion.
+In the 1920's Edwin Hubble discovered that the universe is expanding by noticing that the vast majority of galaxies were receding away from us (by measuring their distance using [universal measuring sticks](2022-05-17-tutorial-universal-measuring-sticks) and their redshift) and that further away galaxies were receding faster. The Hubble constant is a measurement of the rate of this expansion.
 
 ## Traditional Measurement Methods
 
 The Hubble constant has traditionally been measured in two ways: using supernovae in distant galaxies to measure their distance, or the fluctuations in the Cosmic Microwave Background Radiation (CMBR). Using the supernova method, calculations of the Hubble constant are about 68 km/s/Mpc (units: kilometres per second per mega-parsec) whilst the CMBR method produced a result of about 72 km/s/Mpc c<d-footnote>Warren, S., 2022. The Hubble constant, explained. [online] News.uchicago.edu. Available at: [Accessed 22 July 2022].</d-footnote> - a significant discrepancy. Note that the units of the Hubble constant indicate a rate of expansion for a particular distance from an observer, the further the distance between two points, the greater the rate of expansion between them.
-
 
 ## A New Light
 
