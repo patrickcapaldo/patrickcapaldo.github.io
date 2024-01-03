@@ -13,7 +13,7 @@ authors:
     affiliations:
       name: None
 
-bibliography: 2022-05-11-oberth.bib
+bibliography: 2022-05-11-tutorial-oberth.bib
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:

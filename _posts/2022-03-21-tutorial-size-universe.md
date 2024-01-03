@@ -13,7 +13,7 @@ authors:
     affiliations:
       name: None
 
-bibliography: 2022-03-21-size-universe.bib
+bibliography: 2022-03-21-tutorial-size-universe.bib
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
