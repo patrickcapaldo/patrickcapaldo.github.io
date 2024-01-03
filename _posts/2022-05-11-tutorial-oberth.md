@@ -73,10 +73,10 @@ Now, taking the value $${1/2} m$$  as an arbitrary scalar, the function above ca
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/oberth/oberth_graph_diagonal.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tutorials/oberth/oberth_graph_diagonal.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/oberth/oberth_graph_straight.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tutorials/oberth/oberth_graph_straight.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -94,7 +94,7 @@ On 25 December, 2021 at 1:20pm ACDT, the James Webb Space Telescope (JWST) launc
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/oberth/jwst_oberth.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tutorials/oberth/jwst_oberth.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

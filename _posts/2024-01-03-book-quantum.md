@@ -1,10 +1,10 @@
 ---
 layout: post
-title: reviewing 'the strange and beautiful story of quantum physics'
+title: Reviewing 'The Strange and Beautiful Story of Quantum Physics'
 date: 2024-01-03
 description: difficult to not read in a single sitting
 tags: quantum-mechanics
-categories: book
+categories: books
 thumbnail: assets/img/books/book_heloland_quantum_physics.jpg
 ---
 This is an example post with image galleries.
