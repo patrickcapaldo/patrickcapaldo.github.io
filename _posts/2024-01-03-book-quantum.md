@@ -7,42 +7,7 @@ tags: quantum-mechanics
 categories: books
 thumbnail: assets/img/books/book_heloland_quantum_physics.jpg
 ---
-This is an example post with image galleries.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
-</div>
+<b>8/10</b>
 
-Images can be made zoomable.
-Simply add `data-zoomable` to `<img>` tags that you want to make zoomable.
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-The rest of the images in this post are all zoomable, arranged into different mini-galleries.
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
+This book expertly brings you into the microcosm of some of the smartest minds the world has ever seen, and guides you through why quantum mechanics is so notoriously nonintuitive. This approach is a refreshing change to most other literature around this topic which tries, and often fails, to explain quantum mechanics itself. Technical notes are quick and concise, never delving too deep such that you lose understanding, nor too brief that you can't fully appreciate the significance of these discoveries.
