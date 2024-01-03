@@ -1,7 +1,7 @@
 ---
 layout: page
-title: simple pendulum simulation
-description: a visualisation of the simple pendulum tutorial
+title: Simple Pendulum Simulation
+description: A visualisation of the simple pendulum tutorial.
 img: assets/img/projects/simple_pendulum/simple_pendulum_cover.png
 importance: 1
 category: fun

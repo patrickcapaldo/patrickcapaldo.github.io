@@ -2,7 +2,7 @@
 layout: post
 title: Reviewing 'The Strange and Beautiful Story of Quantum Physics'
 date: 2024-01-03
-description: difficult to not read in a single sitting
+description: Difficult to not read in a single sitting.
 tags: quantum-mechanics
 categories: books
 thumbnail: assets/img/books/book_heloland_quantum_physics.jpg
