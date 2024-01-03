@@ -5,7 +5,7 @@ description: Linking supersonic booms to glowing nuclear facilities.
 tags: nuclear-physics
 categories: tutorials
 date: 2022-07-20
-featured: true
+featured: false
 
 authors:
   - name: Patrick Capaldo
