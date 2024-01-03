@@ -7,6 +7,8 @@ importance: 1
 category: fun
 ---
 
+This simulation is an example of the derivation made on [this page](https://patrickcap.github.io/blog/2021/simple-pendulum-derivation/).
+
 ## Animation
 
 The animation shown in Figure 1 was created using the Pygame library for Python. The GitHub code for this can be found at <a href="https://github.com/patrickcap/dynamics-fun/blob/main/oscillatingPendulum.py">this</a> repository.

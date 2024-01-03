@@ -87,10 +87,8 @@ The animation shown in Figure 1 was created using Python and the Pygame library.
 The following will explain how the Energy Method can be used to find the equation that governs the dynamics of the simple pendulum system. The method is implemented by equating two identical values of GPE and KE, then solving for the desired variable. In our case, the desired variable is the angle theta. We will find the GPE (U) at its maximum (highest point of bob) and call this point 1; then we will find the KE (T) at its maximum (lowest point of bob) and call this point 2. By equating U1 to T2, the angle theta can be solved and hence the natural frequency of the system is found. After this, Newton's Second Law (NIIL) can be used to find the temporal solution of the motion of the pendulum. Then, incorporating the result from NIIL with the found natural frequency, a final temporal equation of motion can be deduced (refer to Equation \eqref{eq:1}).
 
 \begin{equation}
-\label{eq:eq1}
-\theta (t) = {\theta}_0 \bullet \left( \sqrt dfrac{g}{L} \bullet t \right)
+\label{eq:1}
+\theta (t) = {\theta}_0 \bullet \left( \sqrt{g/L} \bullet t \right)
 \end{equation}
 
 The working to find the result shown in Figure 2 is displayed below in Figure 3. Note that in the working, the torque in the moment equation is negative since it acts in a direction opposite to the angular displacement. Additionally, the mass moment of inertia of a simple pendulum is given by the mass of the bob multiplied by the square of the bob from the centre of rotation.
-
-## Extra Reading
