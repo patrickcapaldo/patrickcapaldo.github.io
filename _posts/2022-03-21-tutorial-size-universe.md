@@ -5,7 +5,7 @@ description: A battle between light and space.
 tags: cosmology
 categories: tutorials
 date: 2022-03-21
-featured: true
+featured: false
 
 authors:
   - name: Patrick Capaldo
