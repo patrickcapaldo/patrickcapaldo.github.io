@@ -50,7 +50,7 @@ _styles: >
 
 ---
 
-In the 1920's Edwin Hubble discovered that the universe is expanding by noticing that the vast majority of galaxies were receding away from us (by measuring their distance using [universal measuring sticks](2022-05-17-tutorial-universal-measuring-sticks) and their redshift) and that further away galaxies were receding faster. The Hubble constant is a measurement of the rate of this expansion.
+In the 1920's Edwin Hubble discovered that the universe is expanding by noticing that the vast majority of galaxies were receding away from us (by measuring their distance using [universal measuring sticks](me/_posts/2022-05-17-tutorial-universal-measuring-sticks.md) and their redshift) and that further away galaxies were receding faster. The Hubble constant is a measurement of the rate of this expansion.
 
 ## Traditional Measurement Methods
 
