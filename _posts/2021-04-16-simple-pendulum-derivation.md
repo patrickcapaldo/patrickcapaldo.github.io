@@ -29,7 +29,6 @@ toc:
     #   - name: Example Child Subsection 2
   - name: Energy Method Background
   - name: Energy Method/NIIL Process
-  - name: Extra Reading
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -73,7 +72,7 @@ By raising the bob along the arc formed by the circle of radius L from P (i.e. i
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/projects/simple-pendulum-animation-large-grav.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/projects/simple_pendulum/simple-pendulum-animation-large-grav.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
@@ -88,7 +87,36 @@ The following will explain how the Energy Method can be used to find the equatio
 
 \begin{equation}
 \label{eq:1}
-\theta (t) = {\theta}_0 \bullet \left( \sqrt{g/L} \bullet t \right)
+\theta (t) = {\theta}_0 \bullet cos \left( \sqrt{g/L} \bullet t \right)
 \end{equation}
 
 The working to find the result shown in Figure 2 is displayed below in Figure 3. Note that in the working, the torque in the moment equation is negative since it acts in a direction opposite to the angular displacement. Additionally, the mass moment of inertia of a simple pendulum is given by the mass of the bob multiplied by the square of the bob from the centre of rotation.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/simple-pendulum-derivation/pendulum_2.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Figure 3.1: Finding the temporal solution for the motion of a simple pendulum.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/simple-pendulum-derivation/pendulum_3.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Figure 3.2: Finding the temporal solution for the motion of a simple pendulum.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/simple-pendulum-derivation/pendulum_4.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   Figure 3.3: Finding the temporal solution for the motion of a simple pendulum.
+</div>
+
+<!-- To observe how the variation of the derivation parameters affect the motion of the pendulum, refer to [this page](). -->
