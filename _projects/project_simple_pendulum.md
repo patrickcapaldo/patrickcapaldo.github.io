@@ -2,7 +2,7 @@
 layout: page
 title: simple pendulum simulation
 description: a visualisation of the simple pendulum tutorial
-img: assets/img/simple_pendulum/simple_pendulum_cover.png
+img: assets/img/projects/simple_pendulum/simple_pendulum_cover.png
 importance: 1
 category: fun
 ---
@@ -13,7 +13,7 @@ The animation shown in Figure 1 was created using the Pygame library for Python.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/simple-pendulum-animation-large-grav.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/projects/simple-pendulum-animation-large-grav.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
