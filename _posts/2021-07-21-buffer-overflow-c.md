@@ -5,7 +5,7 @@ description: How to exploit programs written in C.
 tags: cybersecurity
 categories: tutorials
 date: 2021-07-21
-featured: true
+featured: false
 
 authors:
   - name: Patrick Capaldo
@@ -119,4 +119,4 @@ For example, if the victim allocates a buffer of 200 bytes and copies user input
 
 ## Protection and Prevention
 
-<!-- To learn about how to protect against and prevent buffer overflows from occurring, take a look at [this page](). -->
+To learn about how to protect against and prevent buffer overflows from occurring, take a look at [this page](https://patrickcap.github.io/blog/2021/buffer-overflow-prot/).

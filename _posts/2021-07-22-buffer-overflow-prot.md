@@ -5,7 +5,7 @@ description: How to protect programs written in C from buffer overflow.
 tags: cybersecurity
 categories: tutorials
 date: 2021-07-22
-featured: true
+featured: false
 
 authors:
   - name: Patrick Capaldo

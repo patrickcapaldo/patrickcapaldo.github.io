@@ -5,7 +5,7 @@ description: Defeating ciphers by finding the key.
 tags: cybersecurity
 categories: tutorials
 date: 2021-06-10
-featured: true
+featured: false
 
 authors:
   - name: Patrick Capaldo
