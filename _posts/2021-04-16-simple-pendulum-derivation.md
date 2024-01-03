@@ -119,4 +119,4 @@ The working to find the result shown in Figure 2 is displayed below in Figure 3.
    Figure 3.3: Finding the temporal solution for the motion of a simple pendulum.
 </div>
 
-<!-- To observe how the variation of the derivation parameters affect the motion of the pendulum, refer to [this page](). -->
+To observe how the variation of the derivation parameters affect the motion of the pendulum, refer to [this page](https://patrickcap.github.io/blog/2021/simple-pendulum-variations/).
