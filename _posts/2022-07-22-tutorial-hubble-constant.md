@@ -6,6 +6,7 @@ tags: astronomy
 categories: tutorials
 date: 2022-07-22
 featured: false
+thumbnail: assets/img/tutorials/hubble_constant/thumb_hubble_const.jpg
 
 authors:
   - name: Patrick Capaldo
@@ -49,6 +50,15 @@ _styles: >
   }
 
 ---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/hubble_constant/thumb_hubble_const.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The expanding universe<d-footnote>https://www.livescience.com/hubble-constant.html</d-footnote>.
+</div>
 
 In the 1920's Edwin Hubble discovered that the universe is expanding by noticing that the vast majority of galaxies were receding away from us (by measuring their distance using [universal measuring sticks](https://patrickcap.github.io/me/blog/2022/tutorial-universal-measuring-sticks/) and their redshift) and that further away galaxies were receding faster. The Hubble constant is a measurement of the rate of this expansion.
 
