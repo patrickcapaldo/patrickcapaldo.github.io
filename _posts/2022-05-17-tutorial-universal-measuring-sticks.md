@@ -6,6 +6,7 @@ tags: astronomy
 categories: tutorials
 date: 2022-05-17
 featured: false
+thumbnail: assets/img/tutorials/universal_measuring_sticks/thumb_cepheid.jpg
 
 authors:
   - name: Patrick Capaldo
@@ -52,6 +53,15 @@ _styles: >
 
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/universal_measuring_sticks/thumb_cepheid.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The expanding universe<d-footnote>https://www.livescience.com/hubble-constant.html</d-footnote>.
+</div>
+
 ## Cepheid Variables
 
 ### Apparent Brightness vs. Absolute Brightness
@@ -75,7 +85,7 @@ Somewhat similarly, particular types of supernova, known as Type IA Supernovae (
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/tutorials/universal_measuring_sticks/period_luminosity.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tutorials/universal_measuring_sticks/snia.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -6,6 +6,7 @@ tags: nuclear-physics
 categories: tutorials
 date: 2022-07-20
 featured: false
+thumbnail: assets/img/tutorials/cherenkov_radiation/thumb_cherenkov.png
 
 authors:
   - name: Patrick Capaldo
@@ -49,6 +50,15 @@ _styles: >
 
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/cherenkov_radiation/thumb_cherenkov.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Visible Cherenkov radiation inside the Advanced Test Reactor at Idaho National Laboratory.<d-footnote>https://www.energy.gov/ne/articles/cherenkov-radiation-explained</d-footnote>.
+</div>
+
 Similarly to the "boom" heard as an aircraft moves at supersonic speeds through air, Cherenkov radiation occurs due to charged paricles moving at, not supersonic, but superluminal (faster than the speed of light) speeds through a dielectric (poor electrical insulator, can be polarised electrically) medium.
 
 ## Physics
@@ -69,7 +79,7 @@ The most ubiquitous example of Cherenkov radiation is that as a result of operat
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/tutorials/cherenkov_radiation/sboom.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tutorials/cherenkov_radiation/reactor.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

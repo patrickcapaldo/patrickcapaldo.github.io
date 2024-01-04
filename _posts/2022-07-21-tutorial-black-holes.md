@@ -6,6 +6,7 @@ tags: cosmology
 categories: tutorials
 date: 2022-07-21
 featured: true
+thumbnail: assets/img/tutorials/black_holes_quasars_blazars/thumb_blazar.jpg
 
 authors:
   - name: Patrick Capaldo
@@ -53,6 +54,15 @@ _styles: >
   }
 
 ---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/black_holes_quasars_blazars/thumb_blazar.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Blazar<d-footnote>https://www.wired.com/story/whats-a-blazar-a-galactic-bakery-for-cosmic-rays/</d-footnote>.
+</div>
 
 Black holes are some of the simplest objects in the universe with only three properties: mass, spin, and charge. Mass generally divides the very small (stellar) from the very large (supermassive), spin divides the rotating (likely ubiquitous) from the non-rotating (likely purely hypothetical), and charge divides those that have accreted more protons (positive) from those that have accreted more electrons (negative). Quasars and blazars result from black holes depending on their mass and level of activity.
 
