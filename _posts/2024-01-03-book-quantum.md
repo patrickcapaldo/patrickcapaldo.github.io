@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Reviewing 'The Strange and Beautiful Story of Quantum Physics'
-date: 2024-01-03
-description: Difficult to not read in a single sitting.
-tags: quantum-mechanics
+title: Reviewing 'Rocket Men'
+date: 2022-05-13
+description: A will to win and a will to survive.
+tags: spaceflight
 categories: books
-thumbnail: assets/img/books/book_heloland_quantum_physics.jpg
+thumbnail: assets/img/books/book_rocket_men.jpg
 ---
 
-<b>8/10</b>
+<b>9/10</b>
 
-This book expertly brings you into the microcosm of some of the smartest minds the world has ever seen, and guides you through why quantum mechanics is so notoriously nonintuitive. This approach is a refreshing change to most other literature around this topic which tries, and often fails, to explain quantum mechanics itself. Technical notes are quick and concise, never delving too deep such that you lose understanding, nor too brief that you can't fully appreciate the significance of these discoveries.
+'Rocket Men' throws you into the midst of the space race between the United States of America and the Soviet Union, summer of 1968. The focus on the astronauts (Frank Borman, James Lovell Jr. and William Anders), their families, and the growing risks of their goal to put a man on the moon before 1970, sets the stage for the gripping story of how a will to win transformed into a will to survive for Apollo 8.
