@@ -59,7 +59,7 @@ _styles: >
     </div>
 </div>
 <div class="caption">
-    The expanding universe<d-footnote>https://www.livescience.com/hubble-constant.html</d-footnote>.
+    Cepheid variable, RS Pupis, one of the brightest in the Milky Way galaxy<d-footnote>https://simple.wikipedia.org/wiki/Cepheid_variable</d-footnote>.
 </div>
 
 ## Cepheid Variables

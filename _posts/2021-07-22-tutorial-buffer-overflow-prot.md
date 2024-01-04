@@ -6,6 +6,7 @@ tags: cybersecurity
 categories: tutorials
 date: 2021-07-22
 featured: false
+thumbnail: assets/img/tutorials/buffer_overflow_prot/thumb_buffer_overflow_prot.jpg
 
 authors:
   - name: Patrick Capaldo
@@ -49,6 +50,15 @@ _styles: >
   }
 
 ---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/buffer_overflow_prot/thumb_buffer_overflow_prot.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Stopping the overflow<d-footnote>https://www.thespruce.com/inexpensive-worm-bin-from-plastic-buckets-2540077</d-footnote>.
+</div>
 
 Below is a list of various methods to avoid buffer overflows from occurring - more specifically using C language.
 

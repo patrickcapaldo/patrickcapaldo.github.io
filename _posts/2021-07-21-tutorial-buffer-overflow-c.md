@@ -6,6 +6,7 @@ tags: cybersecurity
 categories: tutorials
 date: 2021-07-21
 featured: false
+thumbnail: assets/img/tutorials/buffer_overflow_c/thumb_buffer_overflow.jpg
 
 authors:
   - name: Patrick Capaldo
@@ -52,6 +53,15 @@ _styles: >
 
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/buffer_overflow_c/thumb_buffer_overflow.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Overflow<d-footnote>https://lifecounselinginstitute.com/managing-stress-proactively-how-full-is-your-bucket/</d-footnote>.
+</div>
+
 ## Background
 
 The programming language C is commonly referred to as being an "unsafe" language.
@@ -76,7 +86,7 @@ We will assume that the array is allocated in the stack (hence we will be analys
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/tutorials/buffer_overflow-c/boc-1.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tutorials/buffer_overflow_c/boc-1.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -87,7 +97,7 @@ Note that when a function is called on the stack by a "caller", a "callee" stack
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/tutorials/buffer_overflow-c/boc-2.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tutorials/buffer_overflow_c/boc-2.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -104,7 +114,7 @@ This can be exploited maliciously by deliberately overwriting the return address
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/tutorials/buffer_overflow-c/boc-3.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tutorials/buffer_overflow_c/boc-3.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

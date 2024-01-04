@@ -6,6 +6,7 @@ tags: cybersecurity
 categories: tutorials
 date: 2021-06-10
 featured: false
+thumbnail: assets/img/tutorials/dictionary_attack/thumb_dict.jpg
 
 authors:
   - name: Patrick Capaldo
@@ -49,6 +50,15 @@ _styles: >
   }
 
 ---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/dictionary_attack/thumb_dict.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Dictionary attack<d-footnote>https://www.npr.org/2021/07/16/1016901447/oof-yall-dictionary-com-just-added-over-300-new-words-and-definitions</d-footnote>.
+</div>
 
 ## How Do Passwords Work?
 

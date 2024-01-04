@@ -6,6 +6,7 @@ tags: astrodynamics
 categories: tutorials
 date: 2022-05-11
 featured: true
+thumbnail: assets/img/tutorials/oberth/thumb_oberth.png
 
 authors:
   - name: Patrick Capaldo
@@ -48,6 +49,15 @@ _styles: >
   }
 
 ---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/oberth/thumb_oberth.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Second stage of the launch of the James Webb Space Telescope (JWST) taking advantage of the Oberth effect<d-footnote>https://www.youtube.com/watch?v=7nT7JGZMbtM&ab_channel=NASA</d-footnote>.
+</div>
 
 ## Maths
 

@@ -6,6 +6,7 @@ tags: cosmology
 categories: tutorials
 date: 2022-03-21
 featured: false
+thumbnail: assets/img/tutorials/size_universe/thumb_size_universe.jpeg
 
 authors:
   - name: Patrick Capaldo
@@ -50,6 +51,15 @@ _styles: >
   }
 
 ---
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/tutorials/size_universe/thumb_size_universe.jpeg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The edges of the universe<d-footnote>https://nineplanets.org/questions/how-big-is-the-universe/</d-footnote>.
+</div>
 
 The size of the observable universe is a more complex idea than it appears at face value. It is widely known that the universe is approximately 13.8 billion years old. From this knowledge, it is logical to assume our observable universe is 13.8 billion light years in radius in all directions. However, our true observable universe is approximately 46.5 billion light years in radius (or about 93 billion light years in diameter). The reason for this discrepancy in initial logic (13.8 Bly) and scientific fact (46.5 Bly) is due to a battle between light and space.
 
