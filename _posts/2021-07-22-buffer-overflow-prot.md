@@ -68,7 +68,7 @@ Just as canaries were kept in coal mines to warn for the presence of toxic gases
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/tutorials/buffer_overflow-prot/canary.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/tutorials/buffer_overflow_prot/canary.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
