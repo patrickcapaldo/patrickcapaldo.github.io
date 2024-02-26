@@ -1,6 +1,6 @@
 ---
 layout: page
-title: UAV PHORESIS (Unmanned Aerial Vehicle Physical Homing Relay System for Internet of Military Things Synergy)
+title: UAV PHORESIS
 description: A page containing the final report from my Bachelor of Engineering (Mechanical and Aerospace) Honours project.
 img: assets/img/projects/honours/UAV_PHORESIS.png
 importance: 1
