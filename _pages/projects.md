@@ -6,7 +6,7 @@ description: a collection of projects in my spare time
 nav: true
 nav_order: 2
 # display_categories: [work, fun]
-display_categories: [fun]
+display_categories: [fun, university]
 horizontal: false
 ---
 
