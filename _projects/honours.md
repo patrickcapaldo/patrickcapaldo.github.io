@@ -3,7 +3,7 @@ layout: page
 title: UAV PHORESIS
 description: A page containing the final report from my Bachelor of Engineering (Mechanical and Aerospace) Honours project.
 img: assets/img/projects/honours/UAV_PHORESIS.png
-importance: 1
+importance: 
 category: university
 ---
 

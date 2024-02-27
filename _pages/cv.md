@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: PXC_LinkedIn_CV.pdf
+cv_pdf: PXC_LinkedIn_Generated_CV.pdf
 description: 
 toc:
   sidebar: left
