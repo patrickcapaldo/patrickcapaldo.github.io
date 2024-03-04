@@ -4,17 +4,16 @@ title: Rockets vs Lightning
 description: What is the purpose of the towers surrounding a launch pad.
 tags: aerospace
 categories: tutorials
-date: 2024-04-03
-featured: true
+date: 2024-03-04
+featured: false
 thumbnail: assets/img/tutorials/rockets_vs_lightning/Vulcan_Centaur.png
-
 authors:
   - name: Patrick Capaldo
     url: "https://patrickcap.github.io/"
     affiliations:
       name: None
 
-bibliography: 2024-04-03-rockets-vs-lightning.bib
+bibliography: 2024-03-04-rockets-vs-lightning.bib
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
