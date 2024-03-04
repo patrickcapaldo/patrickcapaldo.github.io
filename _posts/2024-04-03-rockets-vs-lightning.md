@@ -5,7 +5,7 @@ description: What is the purpose of the towers surrounding a launch pad.
 tags: aerospace
 categories: tutorials
 date: 2024-04-03
-featured: false
+featured: true
 thumbnail: assets/img/tutorials/rockets_vs_lightning/Vulcan_Centaur.png
 
 authors:
