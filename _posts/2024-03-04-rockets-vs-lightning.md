@@ -53,5 +53,5 @@ After United Launch Alliance’s successful launch of their Vulcan Centaur rocke
     Lift-off of the Vulcan Centaur on January 8, 2024, by United Launch Alliance (ULA). Photo credit: NASASpaceflight<d-footnote>https://www.youtube.com/watch?v=rtPoAUuYXHo&t=5449s&ab_channel=NASASpaceflight</d-footnote>.
 </div>
 
-Read the full article on IET's EngX site <a ref='https://engx.theiet.org/b/blogs/posts/rockets-vs-lightning'>here</a>.
+Read the full article on IET's EngX site <a href='https://engx.theiet.org/b/blogs/posts/rockets-vs-lightning'>here</a>.
 
