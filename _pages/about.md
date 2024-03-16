@@ -19,6 +19,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Machine Learning Software Engineer at Airbus and a graduate Mechanical and Aerospace Engineering (Honours) and Mathematical and Computer Sciences student from the University of Adelaide.
-
-I have a keen interest for self-development and frequent learning of new skills (the main reason I decided to code this website from scratch). Fields of particular interest to me are artificial intelligence and aerospace. This drives my passion for aerospace engineering/design, programming and cybersecurity. In my spare time, I like to exercise outdoors, play sports, build rockets, and watch yacht racing.
+My dream is to pursue a career at the forefront of space exploration, aerospace engineering, and autonomy by contributing to the development of revolutionary design and technology. As a Machine Learning Software Engineer at Airbus, I am working towards this dream.
