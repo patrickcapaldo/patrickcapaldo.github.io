@@ -7,6 +7,15 @@ importance: 1
 category: fun
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/delta_day/delta_day_window_example.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Screenshot of Delta Day's main window.
+</div>
+
 # Motivation
 
 Delta Day encourages personal improvement by making small incremental progress towards things you are interested in, each and every day. Having a focus on small incremements reduces the chances of wasting time thinking too far into the future about large, grand plans, and instead shifts your focus into just starting and doing something. Whilst this can lead to occasionally finding dead-ends, it generally results in greater personal improvement in the long-run compared to doing nothing and trying to plan too far into the future.
