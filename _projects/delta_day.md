@@ -15,7 +15,7 @@ Delta Day also focuses on rewarding small efforts, frequently, as opposed to rew
 
 # GitHub
 
-Click on the following link to find the source code on GitHub.
+Click <a href='https://github.com/patrickcap/delta-day'>here</a> to find the source code on GitHub.
 
 # Journal
 
