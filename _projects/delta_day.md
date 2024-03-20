@@ -28,6 +28,13 @@ Click <a href='https://github.com/patrickcap/delta-day'>here</a> to find the sou
 
 # Journal
 
+## Wednesday, 20 March 2024
+
+* Features:
+    * Category counting table now displaying data correctly.
+* Development:
+    * Previous implementation was attempting to parse the entry text to extract the category and count from there. Instead, simply store the categories in a table when they are entered and keep a global variable counter. Then access that global variable whenever the table should be updated. Also, rows were being set to zero and never updated, now they are set to the length of the category dictionary (i.e., number of categories known).
+
 ## Tuesday, 19 March 2024
 
 * Ideation: Wanting a tool to fight analysis paralysis and reward just starting/doing things.
