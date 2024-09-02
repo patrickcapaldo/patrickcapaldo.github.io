@@ -18,6 +18,6 @@ category: fun
 
 # Motivation
 
-[Click here to visit the Exploronomics page.](_projects\exploronomics_project\index.html)
+[Click here to visit the Exploronomics page.](_projects\exploronomics_prj\index.html)
 
 This project is driven by my deep passion for understanding how the world works, particularly through the lens of economics. I believe that examining economies at a macro scale can help make sense of the state of the nations of the world and their interactions. The interconnectedness of economic factors like trade, inflation, and growth fascinates me, and this project is a step toward visualizing and interpreting these dynamics. By creating tools that make complex economic information accessible, I hope to contribute to a broader understanding of the global economy and inspire informed decision-making.
