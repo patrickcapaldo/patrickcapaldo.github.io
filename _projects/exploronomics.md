@@ -18,4 +18,4 @@ category: fun
 
 # Motivation
 
-[Check out Exploronomics](/exploronomics-app/index.html)
+[Check out Exploronomics](patrickcap.github.io\exploronomics-app\index.html)
