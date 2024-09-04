@@ -10,4 +10,5 @@ category: fun
 
 # Motivation
 
-[Check out Exploronomics](https://patrickcap.github.io/apps/exploronomics-app/index.html)
+<!-- [Check out Exploronomics](https://patrickcap.github.io/apps/exploronomics-app/index.html) -->
+
