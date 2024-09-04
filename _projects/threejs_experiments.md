@@ -9,95 +9,84 @@ category: fun
 
 ### Rotating Green Cube
 
+<!-- Green Cube Container -->
 <div id="green-cube-container" style="width: 400px; height: 300px; border: 1px solid #ccc;"></div>
 
+<!-- Colourful Cube Container -->
+<div id="colourful-cube-container" style="width: 100vw; height: 100vh;"></div>
+
+<!-- Three.js Library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<!-- Green Cube Script -->
 <script>
-  // Set up the scene, camera, and renderer
-  const container = document.getElementById('green-cube-container');
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
+    (function() {
+        const container = document.getElementById('green-cube-container');
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer();
+        renderer.setSize(container.clientWidth, container.clientHeight);
+        container.appendChild(renderer.domElement);
 
-  // Create the WebGL renderer and set its size to match the container's size
-  const renderer = new THREE.WebGLRenderer();
-  renderer.setSize(container.clientWidth, container.clientHeight);
-  container.appendChild(renderer.domElement);
+        const geometry = new THREE.BoxGeometry();
+        const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+        const cube = new THREE.Mesh(geometry, material);
+        scene.add(cube);
 
-  // Create a simple cube
-  const geometry1 = new THREE.BoxGeometry();
-  const material1 = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-  const cube1 = new THREE.Mesh(geometry1, material1);
-  scene.add(cube1);
+        camera.position.z = 5;
 
-  camera.position.z = 5;
+        function animate() {
+            requestAnimationFrame(animate);
+            cube.rotation.x += 0.01;
+            cube.rotation.y += 0.01;
+            renderer.render(scene, camera);
+        }
+        animate();
 
-  // Animation loop
-  function animate() {
-    requestAnimationFrame(animate);
-    cube1.rotation.x += 0.01;
-    cube1.rotation.y += 0.01;
-    renderer.render(scene, camera);
-  }
-  animate();
-
-  // Handle window resize and container size changes
-  window.addEventListener('resize', () => {
-    const containerWidth = container.clientWidth;
-    const containerHeight = container.clientHeight;
-    
-    // Update renderer size
-    renderer.setSize(containerWidth, containerHeight);
-    
-    // Update camera aspect ratio
-    camera.aspect = containerWidth / containerHeight;
-    camera.updateProjectionMatrix();
-  });
+        window.addEventListener('resize', () => {
+            const containerWidth = container.clientWidth;
+            const containerHeight = container.clientHeight;
+            renderer.setSize(containerWidth, containerHeight);
+            camera.aspect = containerWidth / containerHeight;
+            camera.updateProjectionMatrix();
+        });
+    })();
 </script>
 
 <br>
 
-### Rotating Cube Changing Colours
-
-<div id="cube-container" style="width: 100vw; height: 100vh;"></div>
+<!-- Colourful Cube Script -->
 <script>
-    // Scene setup
-    const scene2 = new THREE.Scene();
-    const camera2 = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    const renderer2 = new THREE.WebGLRenderer();
-    renderer2.setSize(window.innerWidth, window.innerHeight);
-    document.getElementById('cube-container').appendChild(renderer2.domElement);
+    (function() {
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.getElementById('colourful-cube-container').appendChild(renderer.domElement);
 
-    // Create a cube
-    const geometry2 = new THREE.BoxGeometry();
-    const material2 = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-    const cube2 = new THREE.Mesh(geometry2, material2);
-    scene2.add(cube2);
+        const geometry = new THREE.BoxGeometry();
+        const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+        const cube = new THREE.Mesh(geometry, material);
+        scene.add(cube);
 
-    // Set camera2 position
-    camera2.position.z = 5;
+        camera.position.z = 5;
 
-    // Animation loop
-    function animate() {
-        requestAnimationFrame(animate);
+        function animate() {
+            requestAnimationFrame(animate);
+            cube.rotation.x += 0.01;
+            cube.rotation.y += 0.01;
+            const time = Date.now() * 0.002;
+            cube.material.color.setHSL(Math.sin(time), 0.5, 0.5);
+            renderer.render(scene, camera);
+        }
+        animate();
 
-        // Rotate the cube
-        cube2.rotation.x += 0.01;
-        cube2.rotation.y += 0.01;
-
-        // Change color over time
-        const time = Date.now() * 0.002;
-        cube2.material2.color.setHSL(Math.sin(time), 0.5, 0.5);
-
-        renderer2.render(scene, camera);
-    }
-    animate();
-
-    // Handle window resize
-    window.addEventListener('resize', () => {
-        camera2.aspect = window.innerWidth / window.innerHeight;
-        camera2.updateProjectionMatrix();
-        renderer2.setSize(window.innerWidth, window.innerHeight);
-    });
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+    })();
 </script>
 
 <br>
@@ -106,13 +95,13 @@ category: fun
 
 Try clicking, dragging, and zooming on this one.
 
-<div id="solar-system-container" style="width: 600px; height: 400px; border: 1px solid #ccc;"></div>
+<div id="solar-system-container-1" style="width: 600px; height: 400px; border: 1px solid #ccc;"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
 
 <script>
   // Set up the scene, camera, and renderer
-  const container1 = document.getElementById('solar-system-container');
+  const container1 = document.getElementById('solar-system-container-1');
   const scene1 = new THREE.Scene();
   const camera1 = new THREE.PerspectiveCamera(75, container1.clientWidth / container1.clientHeight, 0.1, 1000);
   const renderer1 = new THREE.WebGLRenderer();
