@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Satellite Supervisor
-description: predicting the purpose of a satellite based on limited information. The purpose prediction is performed using machine learning techniques applied to satellite data.
+description: Predicting the purpose of a satellite based on limited information. The purpose prediction is performed using machine learning techniques applied to satellite data.
 img: assets/img/projects/satellite_supervisor/nasa-8Hjx3GNZYeA-unsplash.jpg
 importance: 1
 category: fun
