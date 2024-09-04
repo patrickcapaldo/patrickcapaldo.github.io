@@ -84,9 +84,11 @@ category: fun
         animate();
 
         window.addEventListener('resize', () => {
-            camera.aspect = window.innerWidth / window.innerHeight;
+            const containerWidth = container.clientWidth;
+            const containerHeight = container.clientHeight;
+            renderer.setSize(containerWidth, containerHeight);
+            camera.aspect = containerWidth / containerHeight;
             camera.updateProjectionMatrix();
-            renderer.setSize(window.innerWidth, window.innerHeight);
         });
     })();
 </script>
