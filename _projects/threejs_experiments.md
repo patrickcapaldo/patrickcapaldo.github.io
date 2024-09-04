@@ -2,7 +2,7 @@
 layout: page
 title: Three.js Experiments
 description: Having fun with three.js
-img: assets\img\projects\threejs_experiments\threejs_logo.png
+img: assets/img/projects/threejs_experiments/threejs_logo.png
 importance: 1
 category: fun
 ---
@@ -54,7 +54,11 @@ category: fun
   });
 </script>
 
-### Sun and Orbiting Planet Example
+<br>
+
+### Sun and Orbiting Planet
+
+Try clicking and dragging on this one.
 
 <div id="solar-system-container-1" style="width: 600px; height: 400px; border: 1px solid #ccc;"></div>
 
@@ -121,4 +125,150 @@ category: fun
     camera1.aspect = containerWidth1 / containerHeight1;
     camera1.updateProjectionMatrix();
   });
+</script>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Fly-Through Terrain Example
+
+<div id="terrain-container" style="width: 800px; height: 600px; border: 1px solid #ccc;"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/PointerLockControls.js"></script>
+
+<script>
+// Set up the scene, camera, and renderer
+const containerTerrain = document.getElementById('terrain-container');
+const sceneTerrain = new THREE.Scene();
+const cameraTerrain = new THREE.PerspectiveCamera(75, containerTerrain.clientWidth / containerTerrain.clientHeight, 0.1, 1000);
+const rendererTerrain = new THREE.WebGLRenderer();
+rendererTerrain.setSize(containerTerrain.clientWidth, containerTerrain.clientHeight);
+containerTerrain.appendChild(rendererTerrain.domElement);
+
+// Create the terrain using a plane geometry
+const terrainGeometry = new THREE.PlaneGeometry(200, 200, 100, 100);
+const terrainMaterial = new THREE.MeshStandardMaterial({ color: 0x228B22, wireframe: false });
+const terrain = new THREE.Mesh(terrainGeometry, terrainMaterial);
+terrain.rotation.x = -Math.PI / 2; // Rotate to make it flat
+sceneTerrain.add(terrain);
+
+// Apply random height values to the terrain vertices for simple terrain elevation
+terrainGeometry.vertices.forEach(vertex => {
+  vertex.z = Math.random() * 10; // Random elevation
+});
+terrainGeometry.computeVertexNormals();
+terrainGeometry.verticesNeedUpdate = true;
+
+// Add lighting to the scene
+const ambientLight = new THREE.AmbientLight(0x404040); // Soft ambient light
+sceneTerrain.add(ambientLight);
+
+const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+directionalLight.position.set(100, 100, 100).normalize(); // Position the light
+sceneTerrain.add(directionalLight);
+
+// Set up PointerLockControls for first-person movement
+const controlsTerrain = new THREE.PointerLockControls(cameraTerrain, rendererTerrain.domElement);
+cameraTerrain.position.set(0, 10, 50); // Start above the terrain
+
+// Enable pointer lock when the user clicks on the terrain container
+containerTerrain.addEventListener('click', () => {
+  controlsTerrain.lock();
+});
+
+// Movement variables
+let moveForward = false;
+let moveBackward = false;
+let moveLeft = false;
+let moveRight = false;
+const moveSpeed = 0.2;
+
+// Keyboard controls for movement
+document.addEventListener('keydown', (event) => {
+  switch (event.code) {
+    case 'ArrowUp':
+    case 'KeyW':
+      moveForward = true;
+      break;
+    case 'ArrowLeft':
+    case 'KeyA':
+      moveLeft = true;
+      break;
+    case 'ArrowDown':
+    case 'KeyS':
+      moveBackward = true;
+      break;
+    case 'ArrowRight':
+    case 'KeyD':
+      moveRight = true;
+      break;
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  switch (event.code) {
+    case 'ArrowUp':
+    case 'KeyW':
+      moveForward = false;
+      break;
+    case 'ArrowLeft':
+    case 'KeyA':
+      moveLeft = false;
+      break;
+    case 'ArrowDown':
+    case 'KeyS':
+      moveBackward = false;
+      break;
+    case 'ArrowRight':
+    case 'KeyD':
+      moveRight = false;
+      break;
+  }
+});
+
+// Animation loop
+function animateTerrain() {
+  requestAnimationFrame(animateTerrain);
+
+  // Handle movement
+  if (controlsTerrain.isLocked) {
+    if (moveForward) controlsTerrain.moveForward(moveSpeed);
+    if (moveBackward) controlsTerrain.moveForward(-moveSpeed);
+    if (moveLeft) controlsTerrain.moveRight(-moveSpeed);
+    if (moveRight) controlsTerrain.moveRight(moveSpeed);
+  }
+
+  // Render the scene
+  rendererTerrain.render(sceneTerrain, cameraTerrain);
+}
+animateTerrain();
+
+// Handle window resize
+window.addEventListener('resize', () => {
+  rendererTerrain.setSize(containerTerrain.clientWidth, containerTerrain.clientHeight);
+  cameraTerrain.aspect = containerTerrain.clientWidth / containerTerrain.clientHeight;
+  cameraTerrain.updateProjectionMatrix();
+});
 </script>
