@@ -55,6 +55,8 @@ category: fun
 
 <br>
 
+### Rotating Colourful Cube
+
 <!-- Colourful Cube Script -->
 <script>
     (function() {
