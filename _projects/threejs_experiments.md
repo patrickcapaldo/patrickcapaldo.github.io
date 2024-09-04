@@ -12,9 +12,6 @@ category: fun
 <!-- Green Cube Container -->
 <div id="green-cube-container" style="width: 400px; height: 300px; border: 1px solid #ccc;"></div>
 
-<!-- Colourful Cube Container -->
-<div id="colourful-cube-container" style="width: 400px; height: 300px; border: 1px solid #ccc;"></div>
-
 <!-- Three.js Library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 
@@ -56,6 +53,9 @@ category: fun
 <br>
 
 ### Rotating Colourful Cube
+
+<!-- Colourful Cube Container -->
+<div id="colourful-cube-container" style="width: 400px; height: 300px; border: 1px solid #ccc;"></div>
 
 <!-- Colourful Cube Script -->
 <script>
