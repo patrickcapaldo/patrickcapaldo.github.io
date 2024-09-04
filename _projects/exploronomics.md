@@ -14,7 +14,7 @@ category: fun
 
 ### Three.js Example
 
-<div id="threejs-container" style="width: 50%; height: 40px border: 1px solid #ccc;"></div>
+<div id="threejs-container" style="width: 40px; height: 30px; border: 1px solid #ccc;"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
