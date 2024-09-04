@@ -14,16 +14,21 @@ category: fun
 
 ### Three.js Example
 
-<div id="threejs-container" style="width: 40px; height: 30px; border: 1px solid #ccc;"></div>
+### Three.js Example
+
+<div id="threejs-container" style="width: 400px; height: 300px; border: 1px solid #ccc;"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
   // Set up the scene, camera, and renderer
+  const container = document.getElementById('threejs-container');
   const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+  const camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
+
+  // Create the WebGL renderer and set its size to match the container's size
   const renderer = new THREE.WebGLRenderer();
-  renderer.setSize(window.innerWidth, window.innerHeight);
-  document.getElementById('threejs-container').appendChild(renderer.domElement);
+  renderer.setSize(container.clientWidth, container.clientHeight);
+  container.appendChild(renderer.domElement);
 
   // Create a simple cube
   const geometry = new THREE.BoxGeometry();
@@ -42,10 +47,16 @@ category: fun
   }
   animate();
 
-  // Handle window resize
+  // Handle window resize and container size changes
   window.addEventListener('resize', () => {
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    camera.aspect = window.innerWidth / window.innerHeight;
+    const containerWidth = container.clientWidth;
+    const containerHeight = container.clientHeight;
+    
+    // Update renderer size
+    renderer.setSize(containerWidth, containerHeight);
+    
+    // Update camera aspect ratio
+    camera.aspect = containerWidth / containerHeight;
     camera.updateProjectionMatrix();
   });
 </script>
