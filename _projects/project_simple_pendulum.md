@@ -4,7 +4,7 @@ title: Simple Pendulum Simulation
 description: A visualisation of the simple pendulum tutorial.
 img: assets/img/projects/simple_pendulum/simple_pendulum_cover.png
 importance: 1
-category: fun
+category: university
 ---
 
 This simulation is an example of the derivation made on [this page](https://patrickcap.github.io/blog/2021/simple-pendulum-derivation/).
