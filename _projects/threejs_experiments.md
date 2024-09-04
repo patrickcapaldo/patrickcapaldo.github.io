@@ -59,6 +59,7 @@ category: fun
 ### Rotating Cube Changing Colours
 
 <div id="cube-container" style="width: 100vw; height: 100vh;"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
     // Scene setup
     const scene = new THREE.Scene();
