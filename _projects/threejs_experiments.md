@@ -9,12 +9,12 @@ category: fun
 
 ### Rotating Green Cube
 
-<div id="threejs-container" style="width: 400px; height: 300px; border: 1px solid #ccc;"></div>
+<div id="green-cube-container" style="width: 400px; height: 300px; border: 1px solid #ccc;"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
   // Set up the scene, camera, and renderer
-  const container = document.getElementById('threejs-container');
+  const container = document.getElementById('green-cube-container');
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
 
@@ -58,15 +58,14 @@ category: fun
 
 ### Rotating Cube Changing Colours
 
-<div id="cube-container" style="width: 100vw; height: 100vh;"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<div id="colourful-cube-container" style="width: 100vw; height: 100vh;"></div>
 <script>
     // Scene setup
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     const renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
-    document.getElementById('cube-container').appendChild(renderer.domElement);
+    document.getElementById('colourful-cube-container').appendChild(renderer.domElement);
 
     // Create a cube
     const geometry = new THREE.BoxGeometry();
