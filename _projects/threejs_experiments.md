@@ -7,13 +7,13 @@ importance: 1
 category: fun
 ---
 
+<!-- Three.js Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
 ### Rotating Green Cube
 
 <!-- Green Cube Container -->
-<div id="green-cube-container" style="width: 400px; height: 300px; border: 1px solid #ccc;"></div>
-
-<!-- Three.js Library -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<div id="green-cube-container" style="width: 600px; height: 400px; border: 1px solid #ccc;"></div>
 
 <!-- Green Cube Script -->
 <script>
@@ -55,16 +55,24 @@ category: fun
 ### Rotating Colourful Cube
 
 <!-- Colourful Cube Container -->
-<div id="colourful-cube-container" style="width: 400px; height: 300px; border: 1px solid #ccc;"></div>
+<div id="colourful-cube-container" style="width: 600px; height: 400px; border: 1px solid #ccc;"></div>
 
 <!-- Colourful Cube Script -->
 <script>
     (function() {
+        // const scene = new THREE.Scene();
+        // const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        // const renderer = new THREE.WebGLRenderer();
+        // renderer.setSize(window.innerWidth, window.innerHeight);
+        // document.getElementById('colourful-cube-container').appendChild(renderer.domElement);
+
+        const container = document.getElementById('colourful-cube-container');
         const scene = new THREE.Scene();
-        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
         const renderer = new THREE.WebGLRenderer();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        document.getElementById('colourful-cube-container').appendChild(renderer.domElement);
+        renderer.setSize(container.clientWidth, container.clientHeight);
+        container.appendChild(renderer.domElement);
+
 
         const geometry = new THREE.BoxGeometry();
         const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
