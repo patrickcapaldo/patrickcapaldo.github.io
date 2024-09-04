@@ -13,7 +13,7 @@ category: fun
 <div id="green-cube-container" style="width: 400px; height: 300px; border: 1px solid #ccc;"></div>
 
 <!-- Colourful Cube Container -->
-<div id="colourful-cube-container" style="width: 100vw; height: 100vh;"></div>
+<div id="colourful-cube-container" style="width: 400px; height: 300px; border: 1px solid #ccc;"></div>
 
 <!-- Three.js Library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
