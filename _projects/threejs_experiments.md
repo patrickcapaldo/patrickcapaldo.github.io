@@ -58,14 +58,14 @@ category: fun
 
 ### Rotating Cube Changing Colours
 
-<div id="colourful-cube-container" style="width: 100vw; height: 100vh;"></div>
+<div id="cube-container" style="width: 100vw; height: 100vh;"></div>
 <script>
     // Scene setup
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     const renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
-    document.getElementById('colourful-cube-container').appendChild(renderer.domElement);
+    document.getElementById('cube-container').appendChild(renderer.domElement);
 
     // Create a cube
     const geometry = new THREE.BoxGeometry();
@@ -106,13 +106,13 @@ category: fun
 
 Try clicking, dragging, and zooming on this one.
 
-<div id="solar-system-container-1" style="width: 600px; height: 400px; border: 1px solid #ccc;"></div>
+<div id="solar-system-container" style="width: 600px; height: 400px; border: 1px solid #ccc;"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
 
 <script>
   // Set up the scene, camera, and renderer
-  const container1 = document.getElementById('solar-system-container-1');
+  const container1 = document.getElementById('solar-system-container');
   const scene1 = new THREE.Scene();
   const camera1 = new THREE.PerspectiveCamera(75, container1.clientWidth / container1.clientHeight, 0.1, 1000);
   const renderer1 = new THREE.WebGLRenderer();
