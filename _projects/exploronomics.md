@@ -12,10 +12,10 @@ category: fun
         {% include figure.html path="assets/img/projects/delta_day/delta_day_window_example.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption">;
     Screenshot of the Exploronomics main window.
 </div> -->
 
 # Motivation
 
-[Check out Exploronomics](../exploronomics-app/index.html)
+[Check out Exploronomics](/exploronomics-app/index.html)
