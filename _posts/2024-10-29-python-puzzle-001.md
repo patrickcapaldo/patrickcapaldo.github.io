@@ -46,7 +46,9 @@ Today's Python Puzzle will test your knowledge of order of execution, operator p
 - Operator Precedence: Understanding how `x=x+y` works when `x` is global.
 - Variable Scope: Understanding `global`, `nonlocal`, and local scopes.
 
-Feel free to use an online Python compiler and interpreter like [this] (https://www.online-python.com/) to try running the code yourself.
+Read each line carefully and try to predict the output.
+
+Feel free to use an online Python compiler and interpreter like [this] (https://www.online-python.com/) to try running the code yourself. The answer is supplied below the code.
 
 ```python
 # Python Execution Puzzle!
@@ -70,4 +72,22 @@ def puzzle():
 puzzle()
 print("Outside puzzle:", x)
 
+```
+
+## Answer
+
+After `puzzle()` runs:
+
+1. `x` in the global scope is updated to `15` (from `x + y = 5 + 10`).
+2. `inner()` modifies `y` in `puzzle()` to `20`.
+3. The `print()` inside `inner()` outputs `Inside inner: 15 20`.
+4. The `print()` inside `puzzle()` outputs `Inside puzzle: 15 20`.
+5. Finally, `print("Outside puzzle:", x)` outputs `Outside puzzle: 15`.
+
+Expected output:
+
+```
+Inside inner: 15 20
+Inside puzzle: 15 20
+Outside puzzle: 15
 ```
