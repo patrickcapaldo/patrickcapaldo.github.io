@@ -1,12 +1,12 @@
 ---
-layout: distill
+layout: post
 title: Python Puzzle 001 - Scope
 description: Execution order, operator precedence, and scope.
 tags: python
-categories: tutorials
+categories: puzzles
 date: 2024-10-29
 featured: false
-thumbnail: assets/img/tutorials/python_puzzles/python_puzzle_01.png
+thumbnail: assets/img/puzzles/python_puzzle_01.png
 authors:
   - name: Patrick Capaldo
     url: "https://patrickcap.github.io/"

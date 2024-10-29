@@ -264,7 +264,7 @@ jekyll-archives:
     category: '/blog/category/:name/'
 
 display_tags: ['aerospace', 'astrodynamics', 'cosmology', 'astronomy', 'nuclear-physics', 'dynamics', 'cybersecurity', 'python'] # these tags will be displayed on the front page of your blog
-display_categories: ['tutorials', 'books'] # these categories will be displayed on the front page of your blog
+display_categories: ['tutorials', 'books', 'puzzles'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
