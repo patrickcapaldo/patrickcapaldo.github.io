@@ -41,7 +41,15 @@ _styles: >
 
 ---
 
-![Exploronomics globe](assets/img/projects/exploronomics/exploronomics_globe.png)
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/exploronomics/exploronomics_globe.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Exploronomics globe.
+</div>
 
 I'm making a tool, just for fun, to help get a feel of the economics of the countries of the world.
 
