@@ -41,6 +41,8 @@ _styles: >
 
 ---
 
+![Exploronomics globe](assets/img/projects/exploronomics/exploronomics_globe.png)
+
 I'm making a tool, just for fun, to help get a feel of the economics of the countries of the world.
 
 Check it out [here!](https://patrickcap.github.io/exploronomics/){:target="_blank"}
