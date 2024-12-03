@@ -41,7 +41,6 @@ _styles: >
 
 ---
 
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/exploronomics/exploronomics_globe.png" class="img-fluid rounded z-depth-1" %}
@@ -54,3 +53,12 @@ _styles: >
 I'm making a tool, just for fun, to help get a feel of the economics of the countries of the world.
 
 Check it out [here!](https://patrickcap.github.io/exploronomics/){:target="_blank"}
+
+## Globe Model
+
+I did initially try to create my own 3D model of the Earth using primitive shapes linking this to a downloadable JSON file of the all the borders of every country in the world like [this](https://geojson-maps.kyd.au/).
+
+However, this proved to be quite difficult and buggy and was probably going to take a very long time to get working at a minimum, let alone optimising for performance on client-side. Note that this page contains only a frontend as GitHub Pages can only serve static content, meaning no backend server can run alongside the frontend. So all the computation must be done on client-side.
+
+I stumbled across [this](https://observablehq.com/@michael-keith/draggable-globe-in-d3) draggable globe in D3.js by Michael Keith which was exactly what I was looking for and so I simply linked to this in my code.
+
