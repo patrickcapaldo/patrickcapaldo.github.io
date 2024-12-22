@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Delta Day
-description: Following the development of my incremental development tool, Delta Day.
+description: A tool to track incremental developments in skills and encourage 'doing' instead of procrastinating.
 img: assets/img/projects/delta_day/delta_day_window_example.png
 importance: 1
 category: fun
