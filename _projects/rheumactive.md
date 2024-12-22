@@ -18,7 +18,7 @@ category: fun
 
 # Motivation
 
-RheumActive (a play on the word 'rheumatic') is a system designed to track the joint range of motion for people with rheumatoid arthritis, like myself, and ultimately improve the quality of life for people with this disease. Rheumatoid arthritis (RA) is a chronic autoimmune disease that causes pain, inflammation, swelling, and stiffness in the joints as the surrounding bones deform and fuse together. There is no cure for rheumatoid arthritis and thus it's effects accumulate continuously over a lifetime, leading to significant physical, and mental, deterioration. The disease causes periods (sometimes lasting many weeks) of more intense symptoms (more pain, more stiffness, reduced range of motion) called flare-ups which are difficult to predict and vary in their causes from person to person. However, early diagnosis and appropraite treatment can meaningfully mitigate the effects of RA and reduce the frequency of flare-ups. RheumActive aims to provide another dimension of information and analysis for people with RA that assists with tracking their joint movement (with or without a flare-up), identifies personal causes of flare-ups so that they can be anticipated and mitigated in the future, and encourages remaining active despite the disease.
+RheumActive (a play on the word 'rheumatic') is a system designed to track the joint range of motion for people with rheumatoid arthritis, like myself, and ultimately improve the quality of life for people with this disease. Rheumatoid arthritis (RA) is a chronic autoimmune disease that causes pain, inflammation, swelling, and stiffness in the joints as the surrounding bones deform and fuse together. There is no cure for rheumatoid arthritis and thus it's effects accumulate continuously over a lifetime, leading to significant physical and mental deterioration. The disease causes periods (sometimes lasting many weeks) of more intense symptoms (more pain, more stiffness, reduced range of motion) called flare-ups which are difficult to predict and vary in their causes from person to person. However, early diagnosis and appropraite treatment can meaningfully mitigate the effects of RA and reduce the frequency of flare-ups. RheumActive aims to provide another dimension of information and analysis for people with RA that assists with tracking their joint movement (with or without a flare-up), identifies personal causes of flare-ups so that they can be anticipated and mitigated in the future, and encourages remaining active despite the disease.
 
 # System
 
@@ -36,6 +36,6 @@ The hardware used to record and transmit the measurements of joint movement are 
 * Gorilla Tape: To stick down the part of the velcro strap that holds the buckle in place.
 * Double-Sided Tape and Adhesive Pads: To stick the accelerometers to the velcro straps.
 
-# GitHub
+## Software
 
-Click <a href='https://github.com/patrickcap/rheumactive'>here</a> to find the source code on GitHub.
+The software that is used to aggregate and display the readings from the accelerometers is provided in the [this](https://github.com/patrickcap/rheumactive') GitHub repository. 
