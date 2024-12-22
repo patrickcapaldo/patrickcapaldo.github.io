@@ -38,4 +38,4 @@ The hardware used to record and transmit the measurements of joint movement are 
 
 ## Software
 
-The software that is used to aggregate and display the readings from the accelerometers is provided in the [this](https://github.com/patrickcap/rheumactive') GitHub repository. 
+The software that is used to aggregate and display the readings from the accelerometers is provided in the [this GitHub repository](https://github.com/patrickcap/rheumactive). 
