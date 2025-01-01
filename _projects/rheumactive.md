@@ -16,6 +16,10 @@ category: fun
     Image of the MPU6050 accelerometers and Arduino Nano used for RheumActive.
 </div>
 
+# Disclaimer
+
+The devices and designs provided are shared freely for educational and informational purposes. The creators do not accept any liability for any injury, damage, or loss caused by the use of these designs
+
 # Motivation
 
 RheumActive (a play on the word 'rheumatic') is a system designed to track the joint range of motion for people with rheumatoid arthritis, like myself, and ultimately improve the quality of life for people with this disease. Rheumatoid arthritis (RA) is a chronic autoimmune disease that causes pain, inflammation, swelling, and stiffness in the joints as the surrounding bones deform and fuse together. There is no cure for rheumatoid arthritis and thus it's effects accumulate continuously over a lifetime, leading to significant physical and mental deterioration. The disease causes periods (sometimes lasting many weeks) of more intense symptoms (more pain, more stiffness, reduced range of motion) called flare-ups which are difficult to predict and vary in their causes from person to person. However, early diagnosis and appropraite treatment can meaningfully mitigate the effects of RA and reduce the frequency of flare-ups. RheumActive aims to provide another dimension of information and analysis for people with RA that assists with tracking their joint movement (with or without a flare-up), identifies personal causes of flare-ups so that they can be anticipated and mitigated in the future, and encourages remaining active despite the disease.
