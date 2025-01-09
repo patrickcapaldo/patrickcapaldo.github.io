@@ -43,3 +43,10 @@ The hardware used to record and transmit the measurements of joint movement are 
 ## Software
 
 The software that is used to aggregate and display the readings from the accelerometers is provided in the [this GitHub repository](https://github.com/patrickcap/rheumactive). 
+
+## Challenges
+
+Serial Buffer
+- Problem: The GUI was displaying the accelerometer measurements with a significant delay (>10 seconds) that only worsened the longer the system was running.
+- Root Cause: After some debugging, I discovered that the serial buffer (a temporary storage space for data received through a serial port) was being overloaded as it building up quicker than the Python program could process and display it.
+- Solution: Implementing a serial buffer flusher that resets the serial buffer once it exceeds a certain threshold (e.g., an arbitrary value of 1024 was used). This ensures that the buffer doesn't 'back-up' too much and keeps the most recent data close to the processing being done by the Python program before it is displayed in the GUI.
