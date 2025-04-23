@@ -4,7 +4,7 @@ title: Humans and Our Tools
 description: What is our purpose with the tools we create?
 tags: artificial-intelligence
 categories: blogs
-date: 2024-04-22
+date: 2025-04-23
 featured: false
 thumbnail: assets/img/blogs/humans_and_our_tools/
 authors:
