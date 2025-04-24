@@ -40,5 +40,6 @@ _styles: >
 
 ---
 
-What happens to the purpose of a human once they have made a tool that helps them with a particular task?
+What happens to the purpose of a human once they have made a tool that helps them do something?
+
 
