@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reviewing 'The AI Economy: Work, Wealth, and Welfare in the Robot Age'"
-date: 2024-02-03
+date: 2025-02-03
 description: Thought-provoking but becoming dated quickly.
 tags: artificial-intelligence
 categories: books
