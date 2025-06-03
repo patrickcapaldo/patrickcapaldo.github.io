@@ -40,6 +40,15 @@ _styles: >
 
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/blogs/paths_of_resistance/paths.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Paths of resistance.
+</div>
+
 What are the pros and cons of using a GPS to navigate? Or a calculator to do simple arithmetic?
 
 Conversely, what are the pros and cons of growing your own food? Or doing all your research only via books in a library?
