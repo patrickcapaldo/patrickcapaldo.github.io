@@ -45,9 +45,6 @@ _styles: >
         {% include figure.html path="assets/img/blogs/paths_of_resistance/paths.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Paths of resistance.
-</div>
 
 What are the pros and cons of using a GPS to navigate? Or a calculator to do simple arithmetic?
 
