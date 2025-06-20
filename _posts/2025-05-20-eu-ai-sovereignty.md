@@ -50,18 +50,17 @@ Engineers, strategists and decision-makers involved in AI deployment, data‑cen
 
 ### What You’ll Learn:
 
-The meaning of the “Sovereign AI” concept as advanced by Nvidia and how it aligns with European digital‑sovereignty goals.
-
-The key partnerships and investment announcements made during Jensen Huang’s recent European tour.
-
-How these developments could reshape data‑centre planning, chip procurement, and supply‑chain decisions in Europe.
-
-Immediate strategic steps for organisations and policymakers operating in Europe’s AI infrastructure domain.
+- The meaning of the “Sovereign AI” concept as advanced by Nvidia and how it aligns with European digital‑sovereignty goals.
+- The key partnerships and investment announcements made during Jensen Huang’s recent European tour.
+- How these developments could reshape data‑centre planning, chip procurement, and supply‑chain decisions in Europe.
+- Immediate strategic steps for organisations and policymakers operating in Europe’s AI infrastructure domain.
 
 ## Europe’s AI Crossroads
+
 Europe’s leaders have for years voiced concerns that the continent trails the United States and China in AI infrastructure. Data‑centre capacity, chip availability and domestic cloud offerings have lagged behind global hyperscalers. High energy costs and regulatory hurdles for new data centres add to the complexity. Against this backdrop, the idea of “digital sovereignty” - the notion that Europe should reduce dependency on non‑European tech giants for critical infrastructure - has grown from policy rhetoric into tangible action plans. Nvidia’s Jensen Huang has seen this opportunity and gone for it with his European tour in June 2025.
 
 ## Defining “Sovereign AI”
+
 The term “Sovereign AI” as presented by Huang is anchored in the belief that AI models, data and inference workloads should reflect local languages, cultures and regulatory requirements. He argues that “each nation needs to develop and own its AI” so that solutions are tailored to regional needs rather than imposed from afar [1]. This framing resonates with longstanding EU policy themes: data‑protection rules, strategic autonomy and support for domestic industry.
 
 According to Reuters, Huang has been pitching this concept since 2023, but in mid‑2025 it gained traction as European leaders responded to concrete proposals rather than abstract exhortations. Financial Times coverage echoed this, noting Huang’s warning that Europe must “move into AI quickly” or risk remaining solely a consumer of foreign technologies [2]. Thus, “Sovereign AI” became more than just a slogan: it serves as a clear geopolitical message for the importance of AI in the near future, and of course, as a powerful sales pitch for Nvidia.
@@ -199,26 +198,27 @@ Jensen Huang’s mid-June 2025 European tour is a story of two tales: Europe wan
 Jensen’s tour destinations, in London, Paris and Berlin, revealed concrete partnerships, government funding commitments and discussions about local assembly, all situated within broader EU policy moves like AI gigafactories. For supply‑chain strategists, the imperative is clear: plan proactively for high demand for Nvidia hardware, engage in public‑private collaborations, address energy and regulatory constraints, and develop hybrid infrastructure models. By meshing together these trends, organisations can help Europe’s aspiration to be an “AI maker” rather than an “AI taker,” while managing practical challenges around cost, sustainability and supply‑chain resilience.
 
 ## References
-Supantha Mukherjee, Reuters. “Nvidia’s pitch for sovereign AI resonates with EU leaders,” 16 June 2025. URL: https://www.reuters.com/business/media-telecom/nvidias-pitch-sovereign-ai-resonates-with-eu-leaders-2025-06-16/
 
-Financial Times. “Nvidia chief says UK lacks digital infrastructure as Keir Starmer pledges £1bn for AI,” 9 June 2025. URL: https://www.ft.com/content/cc04adfb-81b2-477f-b85c-ce042e8f83a8
+1. Supantha Mukherjee, Reuters. “Nvidia’s pitch for sovereign AI resonates with EU leaders,” 16 June 2025. URL: https://www.reuters.com/business/media-telecom/nvidias-pitch-sovereign-ai-resonates-with-eu-leaders-2025-06-16/
 
-UK Government. “Prime Minister’s remarks at London Tech Week 2025: Monday 9 June,” 9 June 2025. URL: https://www.gov.uk/government/speeches/prime-ministers-remarks-at-london-tech-week-2025-monday-9-june
+2. Financial Times. “Nvidia chief says UK lacks digital infrastructure as Keir Starmer pledges £1bn for AI,” 9 June 2025. URL: https://www.ft.com/content/cc04adfb-81b2-477f-b85c-ce042e8f83a8
 
-NVIDIA News Release. “NVIDIA Partners With Europe Model Builders and Cloud Providers to Accelerate Region’s Leap Into AI,” 11 June 2025. URL: https://nvidianews.nvidia.com/news/nvidia-partners-with-europe-model-builders-and-cloud-providers-to-accelerate-regions-leap-into-ai
+3. UK Government. “Prime Minister’s remarks at London Tech Week 2025: Monday 9 June,” 9 June 2025. URL: https://www.gov.uk/government/speeches/prime-ministers-remarks-at-london-tech-week-2025-monday-9-june
 
-Supantha Mukherjee, Reuters. (Within “Nvidia’s pitch for sovereign AI resonates with EU leaders,” reference to EU plans) “In February, the European Union announced plans to build four ‘AI gigafactories’ at a cost of $20 billion to lower dependence on U.S. firms,” 16 June 2025. URL: as in [1].
+4. NVIDIA News Release. “NVIDIA Partners With Europe Model Builders and Cloud Providers to Accelerate Region’s Leap Into AI,” 11 June 2025. URL: https://nvidianews.nvidia.com/news/nvidia-partners-with-europe-model-builders-and-cloud-providers-to-accelerate-regions-leap-into-ai
 
-Reuters. “Prime Minister Starmer plans to make Britain AI 'superpower',” 12 January 2025. URL: https://www.reuters.com/world/uk/uk-pm-starmer-outline-plan-make-britain-world-leader-ai-2025-01-12/
+5. Supantha Mukherjee, Reuters. (Within “Nvidia’s pitch for sovereign AI resonates with EU leaders,” reference to EU plans) “In February, the European Union announced plans to build four ‘AI gigafactories’ at a cost of $20 billion to lower dependence on U.S. firms,” 16 June 2025. URL: as in [1].
 
-Supantha Mukherjee, Reuters. “After Nvidia laid out plans to build an AI cloud platform in Germany with Deutsche Telekom, German Chancellor Friedrich Merz called it an ‘important step’,” 16 June 2025. URL: https://www.reuters.com/business/media-telecom/nvidias-pitch-sovereign-ai-resonates-with-eu-leaders-2025-06-16/
+6. Reuters. “Prime Minister Starmer plans to make Britain AI 'superpower',” 12 January 2025. URL: https://www.reuters.com/world/uk/uk-pm-starmer-outline-plan-make-britain-world-leader-ai-2025-01-12/
 
-Supantha Mukherjee, Reuters. “High electricity costs and rising demand could strain sourcing of electricity for data centres. Data centres account for 3% of EU electricity demand, but their consumption is expected to increase rapidly this decade due to AI,” within “Nvidia’s pitch for sovereign AI resonates with EU leaders,” 16 June 2025. URL: as in [1].
+7. Supantha Mukherjee, Reuters. “After Nvidia laid out plans to build an AI cloud platform in Germany with Deutsche Telekom, German Chancellor Friedrich Merz called it an ‘important step’,” 16 June 2025. URL: https://www.reuters.com/business/media-telecom/nvidias-pitch-sovereign-ai-resonates-with-eu-leaders-2025-06-16/
 
-Supantha Mukherjee, Reuters. “There's no reason why Europe shouldn't have tech champions,” quoting Mistral CEO Arthur Mensch at VivaTech, 16 June 2025. URL: as in [1].
+8. Supantha Mukherjee, Reuters. “High electricity costs and rising demand could strain sourcing of electricity for data centres. Data centres account for 3% of EU electricity demand, but their consumption is expected to increase rapidly this decade due to AI,” within “Nvidia’s pitch for sovereign AI resonates with EU leaders,” 16 June 2025. URL: as in [1].
 
-Anna Desmarais, Euro News. “The EU is set to create 7 new AI factories around Europe. What are they and what will they do?”, 21 December 2024. URL: https://www.euronews.com/next/2024/12/21/the-eu-is-set-to-create-7-new-ai-factories-around-europe-what-are-they-and-what-will-they-
+9. Supantha Mukherjee, Reuters. “There's no reason why Europe shouldn't have tech champions,” quoting Mistral CEO Arthur Mensch at VivaTech, 16 June 2025. URL: as in [1].
 
-European Commission. “Commission sets course for Europe's AI leadership with an ambitious AI Continent Action Plan”. 9 April 2025. URL: https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1013
+10. Anna Desmarais, Euro News. “The EU is set to create 7 new AI factories around Europe. What are they and what will they do?”, 21 December 2024. URL: https://www.euronews.com/next/2024/12/21/the-eu-is-set-to-create-7-new-ai-factories-around-europe-what-are-they-and-what-will-they-
 
-Anthony Hills, Nvidia. “‘AI Maker, Not an AI Taker’: UK Builds Its Vision With NVIDIA Infrastructure”. 8 June 2025. URL: https://blogs.nvidia.com/blog/uk-ai-vision/
+11. European Commission. “Commission sets course for Europe's AI leadership with an ambitious AI Continent Action Plan”. 9 April 2025. URL: https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1013
+
+12. Anthony Hills, Nvidia. “‘AI Maker, Not an AI Taker’: UK Builds Its Vision With NVIDIA Infrastructure”. 8 June 2025. URL: https://blogs.nvidia.com/blog/uk-ai-vision/
