@@ -43,9 +43,12 @@ _styles: >
 This post was originally made on my Substack, Hidden Layers. Check it out [here.](https://patrickcapaldo.substack.com/p/europes-sovereign-ai-push)
 
 ## Before You Read
-Who Should Read: Engineers, strategists and decision-makers involved in AI deployment, data‑centre planning, and supply‑chain strategy in Europe. A basic familiarity with AI hardware ecosystems and European digital‑sovereignty debates is assumed.
 
-## What You’ll Learn:
+### Who Should Read: 
+
+Engineers, strategists and decision-makers involved in AI deployment, data‑centre planning, and supply‑chain strategy in Europe. A basic familiarity with AI hardware ecosystems and European digital‑sovereignty debates is assumed.
+
+### What You’ll Learn:
 
 The meaning of the “Sovereign AI” concept as advanced by Nvidia and how it aligns with European digital‑sovereignty goals.
 
