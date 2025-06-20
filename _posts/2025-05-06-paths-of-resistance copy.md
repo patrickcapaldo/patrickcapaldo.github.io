@@ -4,7 +4,7 @@ title: Paths of Resistance
 description: 
 tags: artificial-intelligence
 categories: blogs
-date: 2025-04-23
+date: 2025-05-06
 featured: false
 thumbnail: assets/img/blogs/paths_of_resistance/paths.png
 authors:

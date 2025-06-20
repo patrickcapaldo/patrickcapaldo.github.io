@@ -4,7 +4,7 @@ title: Europe’s "Sovereign AI" Push
 description: Nvidia’s Tour & Implications for Compute Supply Chains
 tags: artificial-intelligence
 categories: blogs
-date: 2025-04-23
+date: 2025-06-20
 featured: false
 thumbnail: assets/img/blogs/eu_ai_sovereignty/uk_jensen_june_2025.png
 authors:
