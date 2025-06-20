@@ -6,7 +6,7 @@ tags: artificial-intelligence
 categories: blogs
 date: 2025-04-23
 featured: false
-thumbnail: assets/img/eu_ai_sovereignty/uk_jensen_june_2025.png
+thumbnail: assets/img/blogs/eu_ai_sovereignty/uk_jensen_june_2025.png
 authors:
   - name: Patrick Capaldo
     url: "https://patrickcap.github.io/"
@@ -67,7 +67,7 @@ According to Reuters, Huang has been pitching this concept since 2023, but in mi
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/eu_ai_sovereignty/uk_jensen_june_2025.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blogs/eu_ai_sovereignty/uk_jensen_june_2025.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -82,7 +82,7 @@ Nvidia’s presence in this narrative was immediate. In meetings with UK officia
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/eu_ai_sovereignty/france_jensen_june_2025.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blogs/eu_ai_sovereignty/france_jensen_june_2025.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -97,7 +97,7 @@ In a separate press statement, Nvidia detailed agreements with model builders an
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/eu_ai_sovereignty/germany_jensen_june_2025.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blogs/eu_ai_sovereignty/germany_jensen_june_2025.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -116,7 +116,7 @@ Nvidia reportedly discussed allocating some chip production capacity to Europe f
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/eu_ai_sovereignty/eu_ai_factories.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blogs/eu_ai_sovereignty/eu_ai_factories.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -129,7 +129,7 @@ National governments have likewise introduced incentives: beyond the UK’s £1�
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/eu_ai_sovereignty/nscale.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blogs/eu_ai_sovereignty/nscale.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -144,7 +144,7 @@ Start-ups and system integrators also reacted. Mistral’s alliance with Nvidia 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/eu_ai_sovereignty/nvidia_eu.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/blogs/eu_ai_sovereignty/nvidia_eu.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -195,7 +195,7 @@ Jensen Huang’s mid-June 2025 European tour is a story of two tales: Europe wan
 
 Jensen’s tour destinations, in London, Paris and Berlin, revealed concrete partnerships, government funding commitments and discussions about local assembly, all situated within broader EU policy moves like AI gigafactories. For supply‑chain strategists, the imperative is clear: plan proactively for high demand for Nvidia hardware, engage in public‑private collaborations, address energy and regulatory constraints, and develop hybrid infrastructure models. By meshing together these trends, organisations can help Europe’s aspiration to be an “AI maker” rather than an “AI taker,” while managing practical challenges around cost, sustainability and supply‑chain resilience.
 
-References
+## References
 Supantha Mukherjee, Reuters. “Nvidia’s pitch for sovereign AI resonates with EU leaders,” 16 June 2025. URL: https://www.reuters.com/business/media-telecom/nvidias-pitch-sovereign-ai-resonates-with-eu-leaders-2025-06-16/
 
 Financial Times. “Nvidia chief says UK lacks digital infrastructure as Keir Starmer pledges £1bn for AI,” 9 June 2025. URL: https://www.ft.com/content/cc04adfb-81b2-477f-b85c-ce042e8f83a8
