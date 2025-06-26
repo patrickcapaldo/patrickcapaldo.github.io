@@ -9,7 +9,7 @@ featured: false
 thumbnail: assets/img/blogs/paths_of_resistance/paths.png
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 

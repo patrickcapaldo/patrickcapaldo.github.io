@@ -10,7 +10,7 @@ thumbnail: assets/img/tutorials/oberth/thumb_oberth.png
 
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 

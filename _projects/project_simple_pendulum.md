@@ -7,11 +7,11 @@ importance: 1
 category: university
 ---
 
-This simulation is an example of the derivation made on [this page](https://patrickcap.github.io/blog/2021/simple-pendulum-derivation/).
+This simulation is an example of the derivation made on [this page](https://patrickcapaldo.github.io/blog/2021/simple-pendulum-derivation/).
 
 ## Animation
 
-The animation shown in Figure 1 was created using the Pygame library for Python. The GitHub code for this can be found at <a href="https://github.com/patrickcap/dynamics-fun/blob/main/oscillatingPendulum.py">this</a> repository.
+The animation shown in Figure 1 was created using the Pygame library for Python. The GitHub code for this can be found at <a href="https://github.com/patrickcapaldo/dynamics-fun/blob/main/oscillatingPendulum.py">this</a> repository.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

@@ -10,7 +10,7 @@ thumbnail: assets/img/tutorials/hubble_constant/thumb_hubble_const.jpg
 
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 
@@ -60,7 +60,7 @@ _styles: >
     The expanding universe<d-footnote>https://www.livescience.com/hubble-constant.html</d-footnote>.
 </div>
 
-In the 1920's Edwin Hubble discovered that the universe is expanding by noticing that the vast majority of galaxies were receding from us (by measuring their distance using [universal measuring sticks](https://patrickcap.github.io/me/blog/2022/tutorial-universal-measuring-sticks/) and their redshift) and that more distant galaxies were receding faster. The Hubble constant is a measurement of the rate of this expansion.
+In the 1920's Edwin Hubble discovered that the universe is expanding by noticing that the vast majority of galaxies were receding from us (by measuring their distance using [universal measuring sticks](https://patrickcapaldo.github.io/me/blog/2022/tutorial-universal-measuring-sticks/) and their redshift) and that more distant galaxies were receding faster. The Hubble constant is a measurement of the rate of this expansion.
 
 ## Traditional Measurement Methods
 

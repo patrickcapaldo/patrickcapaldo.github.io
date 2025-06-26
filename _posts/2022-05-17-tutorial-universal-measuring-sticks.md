@@ -10,7 +10,7 @@ thumbnail: assets/img/tutorials/universal_measuring_sticks/thumb_cepheid.jpg
 
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 

@@ -9,7 +9,7 @@ featured: false
 thumbnail: assets/img/blogs/eu_ai_sovereignty/uk_jensen_june_2025.png
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 

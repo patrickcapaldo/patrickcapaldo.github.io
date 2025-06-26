@@ -9,7 +9,7 @@ featured: false
 
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 
@@ -55,7 +55,7 @@ Find below an analysis of a parameter variations on the motion of a simple pendu
 
 ## Introduction
 
-The motion of the simple pendulum is defined by Equation \eqref{eq:1}. This equation was derived on [this page](https://patrickcap.github.io/blog/2021/simple-pendulum-derivation/).
+The motion of the simple pendulum is defined by Equation \eqref{eq:1}. This equation was derived on [this page](https://patrickcapaldo.github.io/blog/2021/simple-pendulum-derivation/).
 
 \begin{equation}
 \label{eq:1}

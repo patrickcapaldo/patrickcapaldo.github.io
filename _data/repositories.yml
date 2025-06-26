@@ -1,8 +1,10 @@
 github_users:
-  - patrickcap
+  - patrickcapaldo
 
 github_repos:
-  - patrickcap/DEPART
-  - patrickcap/APAQ
-  - patrickcap/dynamics-fun
-
+  - patrickcapaldo/DEPART
+  - patrickcapaldo/APAQ
+  - patrickcapaldo/dynamics-fun
+  - patrickcapaldo/exploronomics
+  - patrickcapaldo/satellite-supervisor
+  - patrickcapaldo/delta-day

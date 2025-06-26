@@ -9,7 +9,7 @@ featured: false
 thumbnail: assets/img/tutorials/rockets_vs_lightning/Vulcan_Centaur.png
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 

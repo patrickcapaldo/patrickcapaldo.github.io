@@ -10,7 +10,7 @@ thumbnail: assets/img/tutorials/dictionary_attack/thumb_dict.jpg
 
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 

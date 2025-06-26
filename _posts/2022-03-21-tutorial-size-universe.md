@@ -10,7 +10,7 @@ thumbnail: assets/img/tutorials/size_universe/thumb_size_universe.jpeg
 
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 

@@ -9,7 +9,7 @@ featured: false
 
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 
@@ -79,7 +79,7 @@ By raising the bob along the arc formed by the circle of radius L from P (i.e. i
     Figure 2: Harmonic motion of a simple pendulum and the energy exchange between GPE and KE.
 </div>
 
-The animation shown in Figure 1 was created using Python and the Pygame library. Refer to [this page](https://patrickcap.github.io/projects/project_simple_pendulum/) to find the Python code used to create the animation.
+The animation shown in Figure 1 was created using Python and the Pygame library. Refer to [this page](https://patrickcapaldo.github.io/projects/project_simple_pendulum/) to find the Python code used to create the animation.
 
 ## Energy Method/NIIL Process
 
@@ -119,4 +119,4 @@ The working to find the result shown in Figure 2 is displayed below in Figure 3.
    Figure 3.3: Finding the temporal solution for the motion of a simple pendulum.
 </div>
 
-To observe how the variation of the derivation parameters affect the motion of the pendulum, refer to [this page](https://patrickcap.github.io/blog/2021/simple-pendulum-variations/).
+To observe how the variation of the derivation parameters affect the motion of the pendulum, refer to [this page](https://patrickcapaldo.github.io/blog/2021/simple-pendulum-variations/).

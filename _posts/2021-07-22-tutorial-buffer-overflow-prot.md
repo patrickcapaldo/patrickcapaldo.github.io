@@ -10,7 +10,7 @@ thumbnail: assets/img/tutorials/buffer_overflow_prot/thumb_buffer_overflow_prot.
 
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 

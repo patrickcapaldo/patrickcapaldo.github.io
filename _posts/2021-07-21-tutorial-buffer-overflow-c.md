@@ -10,7 +10,7 @@ thumbnail: assets/img/tutorials/buffer_overflow_c/thumb_buffer_overflow.jpg
 
 authors:
   - name: Patrick Capaldo
-    url: "https://patrickcap.github.io/"
+    url: "https://patrickcapaldo.github.io/"
     affiliations:
       name: None
 
@@ -129,4 +129,4 @@ For example, if the victim allocates a buffer of 200 bytes and copies user input
 
 ## Protection and Prevention
 
-To learn about how to protect against and prevent buffer overflows from occurring, take a look at [this page](https://patrickcap.github.io/blog/2021/buffer-overflow-prot/).
+To learn about how to protect against and prevent buffer overflows from occurring, take a look at [this page](https://patrickcapaldo.github.io/blog/2021/buffer-overflow-prot/).
