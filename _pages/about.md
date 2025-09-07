@@ -9,9 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Machine Learning Software Engineer</p>
-    <p>Airbus</p>
+    <p>🤖 AI Engineer</p>
+    <p>🛰️ Airbus</p>
     <p>Bristol, United Kingdom</p>
+    <p>Australian</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My dream is to pursue a career at the forefront of space exploration, aerospace engineering, and autonomy by contributing to the development of revolutionary design and technology. As a Machine Learning Software Engineer at Airbus, I am working towards this dream.
+My dream is to contribute to the forefront of space exploration and aerospace engineering, whilst improving the effectivity, responsibility, and trustworthiness of autonomous systems in critical industries. As an AI Engineer at Airbus, I am working towards this dream.
 
 Check out: [RheumActive](https://patrickcapaldo.github.io/projects/rheumactive/), [AI Ops Simulator](https://github.com/patrickcapaldo/ai-ops-simulator), and [Exploronomics](https://patrickcapaldo.github.io/exploronomics/){:target="_blank"}.
 
