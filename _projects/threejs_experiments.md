@@ -4,7 +4,7 @@ title: Three.js Experiments
 description: Having fun with three.js
 img: assets/img/projects/threejs_experiments/threejs_logo.png
 importance: 1
-category: fun
+category: 2) fun completed
 ---
 
 <!-- Three.js Library -->

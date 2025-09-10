@@ -4,7 +4,7 @@ title: RheumActive
 description: A system to track the range of motion of joints in the human body, particularly for people with rheumatoid arthritis.
 img: assets/img/projects/rheumactive/RheumActive_Cover.png
 importance: 1
-category: fun
+category: 1) fun current
 ---
 
 <div class="row mt-3">

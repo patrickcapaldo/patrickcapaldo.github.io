@@ -4,7 +4,7 @@ title: Critical Infrastructure Vitals Index (CIVI)
 description: A composite index that scores and ranks countries on the health of their essential infrastructure across autonomy, resilience, sustainability, and effectiveness.
 img: assets/img/projects/civi/civi_cover.png
 importance: 1
-category: fun
+category: 1) fun current
 ---
 
 <div class="row mt-3">
