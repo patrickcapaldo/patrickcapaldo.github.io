@@ -2,9 +2,8 @@ github_users:
   - patrickcapaldo
 
 github_repos:
+  - patrickcapaldo/rheumactive-v2
+  - patrickcapaldo/civi
+  - patrickcapaldo/rheumactive-v1
+  - patrickcapaldo/ai-ops-simulator
   - patrickcapaldo/DEPART
-  - patrickcapaldo/APAQ
-  - patrickcapaldo/dynamics-fun
-  - patrickcapaldo/exploronomics
-  - patrickcapaldo/satellite-supervisor
-  - patrickcapaldo/delta-day
