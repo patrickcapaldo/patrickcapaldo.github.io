@@ -96,11 +96,11 @@ This regenerates the full dataset into /data/civi.json.
 
 The pipeline can also be executed step by step for debugging or targeted updates:
 
-- python src/fetch_data.py – Download raw data
-- python src/clean_data.py – Standardize raw data
-- python src/process_data.py – Normalize and process data
-- python src/score_data.py – Calculate scores
-- python src/build_json.py – Assemble the final civi.json
+- `python src/fetch_data.py` – Download raw data
+- `python src/clean_data.py` – Standardize raw data
+- `python src/process_data.py` – Normalize and process data
+- `python src/score_data.py` – Calculate scores
+- `python src/build_json.py` – Assemble the final civi.json
 
 ## Serving the Frontend
 
