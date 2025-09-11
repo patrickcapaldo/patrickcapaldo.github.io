@@ -58,15 +58,15 @@ Serial Buffer
 After testing the existing architecture extensively and planning to recreate the circuits using printd circuit boards for cleanliness, I have realised a better solution may be to scrap (for now) the IMUs and use computer vision instead. I chose this line of reasoning as I have noticed just how effective pose detection models have gotten even on hardware like a Rapberry Pi with an AI hat. So, here are the parts I have assembled for RheumActive V2.0:
 
 - Compute:
-    - Raspberry Pi 5
+    - Raspberry Pi 5 4GB
     - Hailo AI Hat (13 TOPS)
 - Camera: 
     - Camera Module 3
-    - Extnded Ribbon
+    - Extension Ribbon
     - Housing
     - Tripod Base
     - Tripod Housing Connector
-- Case: 
+- Case: Raspberry Pi 5 Metal Case
 - Memory:
     - Micro SD Card
     - NVMe 500GB
