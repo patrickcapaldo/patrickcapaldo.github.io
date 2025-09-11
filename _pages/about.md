@@ -23,7 +23,7 @@ My dream is to contribute to the effectivity, responsibility, and trustworthines
 
 #### Current Social Contribution
 
-The following is a summary of the ways in which I am currently trying to make the world a more enjoyable place to live in the future.
+The following is a summary of the ways in which I am currently trying to make the world a better place in the future, for all.
 
 **Work**
 
