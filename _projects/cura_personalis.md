@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cura Personalis
-description: Take better care of your physical, mental, and spiritual wellbeing.
+description: Monitoring and improving physical, mental, and spiritual wellbeing to support care for the whole person.
 img: assets/img/projects/cura_personalis/cura_personalis_cover.png
 importance: 1
 category: 1) fun current
@@ -18,13 +18,13 @@ category: 1) fun current
 
 # Purpose  
 
-**CuraPersonalis** (“care for the whole person”) is an **offline-first wellbeing tracker** designed to help individuals cultivate **physical, mental, and spiritual wellbeing** over decades. Rooted in Jesuit philosophy, it ensures that your data remains **local, private, and fully under your control**—with no reliance on the internet or third-party services.  
+**Cura Personalis** (“care for the whole person”) is an **offline-first wellbeing tracker** designed to help individuals cultivate **physical, mental, and spiritual wellbeing** over decades. Rooted in Jesuit philosophy, it ensures that your data remains **local, private, and fully under your control** - with no reliance on the internet or third-party services.  
 
 The project ultimately seeks to empower long-term wellbeing tracking in a way that is **holistic, sustainable, and independent**.  
 
 # Why It Matters  
 
-Wellbeing is multidimensional and deeply personal. In a world where most health and productivity apps are tied to cloud services, subscriptions, or vendor lock-in, **CuraPersonalis prioritizes autonomy and longevity**. It is valuable because it:  
+Wellbeing is multidimensional and deeply personal. In a world where most health and productivity apps are tied to cloud services, subscriptions, or vendor lock-in, **Cura Personalis prioritizes autonomy and longevity**. It is valuable because it:  
 
 - Supports **holistic self-care** across mind, body, and spirit.  
 - Operates **100% offline**, safeguarding privacy and ownership of data.  
@@ -36,9 +36,9 @@ Wellbeing is multidimensional and deeply personal. In a world where most health 
 
 CuraPersonalis organizes wellbeing into **three interconnected dimensions**:  
 
-1. **Physical Wellbeing** – Track strength, cardio, mobility, nutrition, and sleep.  
-2. **Mental Wellbeing** – Record emotions, volunteering, learning, memories, wins, losses, and ongoing efforts.  
-3. **Spiritual Wellbeing** – Reflect through prayer, daily examen, core values, and meaningful quotes.  
+1. **Physical Wellbeing**: Track strength, cardio, mobility, nutrition, and sleep.  
+2. **Mental Wellbeing**: Record emotions, volunteering, learning, memories, wins, losses, and ongoing efforts.  
+3. **Spiritual Wellbeing**: Reflect through prayer, daily examen, core values, and meaningful quotes.  
 
 # Features  
 

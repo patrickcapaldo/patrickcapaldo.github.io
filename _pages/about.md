@@ -32,8 +32,9 @@ The following is a summary of the ways in which I am currently trying to make th
 **Projects**
 
 - [RheumActive](https://patrickcapaldo.github.io/projects/rheumactive/): **Improving physical wellbeing for those with rheumatoid arthritis** and mobility-reducing diseases.
-- [CIVI](https://patrickcapaldo.github.io/projects/civi/): Monitoring, ranking, and learning from the **vital signs of critical industries** in countries around the world.
-- [AI Ops Simulator](https://patrickcapaldo.github.io/projects/ai_ops_simulator/): Providing **simulated tools to learn about large-scale artificial intelligence workflows** without the cost or cold-start issue of using such large-scale tools.
+- [CIVI](https://patrickcapaldo.github.io/projects/civi/): **Monitoring, ranking, and learning from the vital signs of critical industries** in countries around the world.
+- [Cura Personalis](https://patrickcapaldo.github.io/projects/cura_personalis/): **Monitoring and improving physical, mental, and spiritual wellbeing** to support care for the whole person.
+- [AI Ops Simulator](https://patrickcapaldo.github.io/projects/ai_ops_simulator/): **Simulated tools to learn about large-scale artificial intelligence workflows** without the cost or cold-start issue of using such large-scale tools.
 
 **Volunteering**
 
