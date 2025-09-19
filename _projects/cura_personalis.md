@@ -52,3 +52,4 @@ CuraPersonalis organizes wellbeing into **three interconnected dimensions**:
 - 📓 **Examen**: Guided daily self-reflection.
 - 💖 **Values & Alignment**: Define, track, and reflect on core principles.
 - 💬 **Quotes & Inspiration**: Collect and annotate meaningful texts.
+
