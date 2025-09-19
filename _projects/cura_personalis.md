@@ -42,14 +42,68 @@ CuraPersonalis organizes wellbeing into **three interconnected dimensions**:
 
 # Features  
 
-- 🏋️ **Strength Training**: Exercises, sets, reps, weights.
-- 🏃 **Cardio Workouts**: Duration, distance, type.
-- 📷 **Memory Tracking**: Organised photo and story albums.
-- 😴 **Sleep Tracking**: Rest quality and duration.
-- 😊 **Emotional Logs**: Daily moods, stress, reflections.
-- 📚 **Learning & Growth**: Notes, insights, milestones.
-- 🙏 **Prayer & Reflection**: Journaling spiritual practices.
-- 📓 **Examen**: Guided daily self-reflection.
-- 💖 **Values & Alignment**: Define, track, and reflect on core principles.
-- 💬 **Quotes & Inspiration**: Collect and annotate meaningful texts.
+## 🏋️ Physical Wellbeing
+
+- Strength
+- Cardio
+- Mobility
+- Nutrition
+- Sleep
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_physical_example_01.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+        <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_physical_example_02.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Example of a Cardio log.
+</div>
+
+## 😊 Mental Wellbeing
+
+- Emotions
+- Volunteering
+- Learning
+- Memories
+- Wins
+- Losses
+- Efforts
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_mental_example_01.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+        <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_mental_example_02.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Example of a Memories log.
+</div>
+
+## 💖 Spiritual Wellbeing
+
+- Prayer
+- Examen
+- Values
+- Quotes
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_spiritual_example_01.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+        <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_spiritual_example_02.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    </div>
+        <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_spiritual_example_03.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Example of an Examen log.
+</div>
 

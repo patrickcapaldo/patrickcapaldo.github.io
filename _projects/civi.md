@@ -18,7 +18,7 @@ category: current
 
 # Purpose
 
-The Critical Infrastructure Vitals Index (CIVI) is designed to provide a **comprehensive snapshot of a nation’s infrastructure health**. It measures a country’s performance across four key pillars—Autonomy, Resilience, Sustainability, and Effectiveness—giving policymakers, researchers, and investors a standardized framework to understand and compare infrastructure readiness globally.
+The Critical Infrastructure Vitals Index (CIVI) is designed to provide a **comprehensive snapshot of a nation’s infrastructure health**. It measures a country’s performance across four key pillars - Autonomy, Resilience, Sustainability, and Effectiveness - giving policymakers, researchers, and investors a standardized framework to understand and compare infrastructure readiness globally.
 
 CIVI ultimately seeks to highlight strengths, reveal vulnerabilities, and guide future policy and investment decisions in a data-driven way.
 

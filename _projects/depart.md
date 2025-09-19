@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DEPART
-description: Delay Estimation and Prediction for Aircraft Routing and Times — an end-to-end machine learning system for predicting flight delays and serving results through a scalable API.
+description: Delay Estimation and Prediction for Aircraft Routing and Times - an end-to-end machine learning system for predicting flight delays and serving results through a scalable API.
 img: assets/img/projects/depart/depart_cover.png
 importance: 1
 category: research
