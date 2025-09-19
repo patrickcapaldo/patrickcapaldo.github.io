@@ -76,7 +76,7 @@ CuraPersonalis organizes wellbeing into **three interconnected dimensions**:
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_mental_example_01.png" class="img-fluid rounded z-depth-1" %}
     </div>
-        <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_mental_example_02.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -95,11 +95,10 @@ CuraPersonalis organizes wellbeing into **three interconnected dimensions**:
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_spiritual_example_01.png" class="img-fluid rounded z-depth-1" %}
     </div>
-        <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_spiritual_example_02.png" class="img-fluid rounded z-depth-1" %}
     </div>
-    </div>
-        <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/cura_personalis/cura_personalis_spiritual_example_03.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
