@@ -4,7 +4,7 @@ title: Exploronomics
 description: A tool to explore the economics of countries around the world.
 img: assets/img/projects/exploronomics/exploronomics_globe.png
 importance: 1
-category: 2) fun completed
+category: completed
 ---
 
 <div class="row mt-3">

@@ -4,7 +4,7 @@ title: AI Ops Simulator
 description: A text-based command-line tool providing interactive tutorials on AI Operations tools and concepts, enabling hands-on learning in a safe, simulated environment.
 img: assets/img/projects/ai_ops_simulator/ai_ops_simulator_cover.png
 importance: 1
-category: 1) fun current
+category: current
 ---
 
 <div class="row mt-3">

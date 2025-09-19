@@ -4,7 +4,7 @@ title: Cura Personalis
 description: Monitoring and improving physical, mental, and spiritual wellbeing to support care for the whole person.
 img: assets/img/projects/cura_personalis/cura_personalis_cover.png
 importance: 1
-category: 1) fun current
+category: current
 ---
 
 <div class="row mt-3">
