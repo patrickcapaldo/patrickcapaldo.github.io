@@ -16,6 +16,7 @@ category: current
     Conceptual visualization of interconnected infrastructure networks forming the backbone of national stability.
 </div>
 
+[Click to watch a demo!](https://www.youtube.com/watch?v=nSHK4oUn4E4)
 [Checkout the CIVI GitHub repository here!](https://github.com/patrickcapaldo/civi)
 
 # Purpose
