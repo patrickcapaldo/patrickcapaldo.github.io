@@ -104,9 +104,11 @@ The following section is a living list of reasons for why certain decisions were
 - **Relational Schema Design (Multiple Tables for Raw, Normalized, Scored Data)**
     - **Why:** This structured design facilitates a clear, auditable, and reproducible data pipeline. It separates raw, immutable data from processed, normalized, and aggregated results, allowing for easier debugging, re-processing, and understanding of how final scores are derived. It also optimizes for different query patterns at each stage.
 - **`metrics_catalog` Table**
-    - **Why:** Centralizes metadata for all metrics, ensuring consistency and providing essential context (description, source, units, directionality, industry, pillar) for data interpretation and visualization. The `directionality` field is particularly important for correctly normalizing and scoring metrics.
+    - **Why:** Centralizes metadata for all metrics, ensuring consistency and providing essential context (description, source, units, directionality, industry, pillar) for data interpretation and visualization. The `directionality` field is particularly important for correctly normalising and scoring metrics.
 - **`normalization_log` and `etl_runs` Tables**
     - **Why:** Emphasizes data governance, transparency, and reproducibility. These tables record how data was processed and when ETL jobs ran, which is critical for a data platform where users need to trust the underlying data and methodology.
+- **Food and Agriculture Data Fetching and Visualisation:**
+    - **Why:** The issue stemmed from a chart failing to render due to inconsistencies between the frontend and backend. The backend produced incomplete data and used different naming conventions than the frontend, causing data retrieval to fail. This was worsened by the frontend trying to render the chart before the data was fully loaded. The solution involved standardising the backend data structure, aligning the naming conventions, and making the frontend component wait until all necessary data was available before attempting to render.
 
 ## 3. Frontend Frameworks & UI/UX
 
@@ -119,7 +121,7 @@ The following section is a living list of reasons for why certain decisions were
 - **D3.js (Data Visualization Library)**
     - **Why:** Selected for its unparalleled flexibility and power in creating custom, dynamic, and interactive data visualizations, allowing for sophisticated representation of the CIVI data.
 - **Modular Frontend Structure (Pages and Components)**
-    - **Why:** Organizing the frontend into distinct pages (`HomePage`, `ExplorePage`, `AnalysePage`) and reusable components (`NavBar`) promotes code organization, maintainability, and scalability, especially for an application with diverse functionalities.
+    - **Why:** Organising the frontend into distinct pages (`HomePage`, `ExplorePage`, `AnalysePage`) and reusable components (`NavBar`) promotes code organization, maintainability, and scalability, especially for an application with diverse functionalities.
 
 ## 4. Data Acquisition & Processing
 
