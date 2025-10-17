@@ -19,68 +19,124 @@ category: current
 [Click to watch a demo!](https://www.youtube.com/watch?v=nSHK4oUn4E4)
 [Checkout the CIVI GitHub repository here!](https://github.com/patrickcapaldo/civi)
 
-# Purpose
+## Why CIVI Matters
 
-The Critical Infrastructure Vitals Index (CIVI) is designed to provide a **comprehensive snapshot of a nation’s infrastructure health**. It measures a nation's performance across four key pillars - Autonomy, Resilience, Sustainability, and Effectiveness - giving policymakers, researchers, and investors a standardized framework to understand and compare infrastructure readiness globally.
+In an interconnected world, the strength of a nation's critical infrastructure is a primary determinant of its economic stability, national security, and quality of life. CIVI provides a standardised framework for policymakers, researchers, and investors to:
+- Benchmark national infrastructure performance.
+- Identify strategic vulnerabilities and strengths.
+- Guide policy and investment decisions.
+- Promote global standards for infrastructure development.
 
-CIVI ultimately seeks to highlight strengths, reveal vulnerabilities, and guide future policy and investment decisions in a data-driven way.
-
-# Why It Matters
-
-In today’s interconnected world, the strength of a country’s infrastructure is inseparable from its **economic stability, national security, and quality of life**. CIVI is valuable because it:
-
-- Benchmarks national infrastructure performance.
-- Identifies critical strengths and vulnerabilities.
-- Guides evidence-based policy and investment.
-- Promotes consistent global standards for infrastructure development.
-
-# The Four Pillars
+## The Four Pillars
 
 CIVI evaluates infrastructure across four distinct dimensions:
 
-1. **Autonomy** – Independence in operating critical systems, including control of resources, technology, and supply chains.  
-2. **Resilience** – Capacity to withstand, adapt to, and recover from disruptions such as natural disasters, cyber-attacks, or economic shocks.  
-3. **Sustainability** – Long-term viability of infrastructure considering environmental, social, and economic impacts.  
-4. **Effectiveness** – The quality, accessibility, and performance of infrastructure services delivered to citizens and businesses.  
+1.  **Autonomy**: A nation's ability to operate its critical systems without dependence on foreign entities. This includes control over resources, technology, and supply chains.
+2.  **Resilience**: The capacity of infrastructure to withstand, adapt to, and recover from disruptions, whether natural disasters, cyber-attacks, or economic shocks.
+3.  **Sustainability**: The environmental, social, and economic viability of infrastructure. This pillar measures the long-term impact and efficiency of resource use.
+4.  **Effectiveness**: The quality, accessibility, and performance of infrastructure services delivered to citizens and businesses.
 
-# Industries Covered
+## Industries Covered
 
-CIVI spans **11 critical industries** that form the backbone of modern society:
+CIVI spans the following 11 critical industries:
 
-- Communications  
-- Defence  
-- Energy  
-- Finance  
-- Food & Agriculture  
-- Healthcare  
-- Transport  
-- Water  
-- Waste Management  
-- Emergency Services  
-- Information Technology  
+- Communications
+- Defence
+- Energy
+- Finance
+- Food & Agriculture
+- Healthcare
+- Transport
+- Water
+- Waste Management
+- Emergency Services
+- Information Technology
 
-# Methodology
+## Key Features
 
-CIVI’s scoring process is transparent and systematic:
+### Explore
 
-1. **Indicator Selection** – Relevant, globally available indicators are chosen for each industry.  
-2. **Data Collection** – Data is programmatically fetched from reputable international sources.  
-3. **Normalization** – Indicators are rescaled (0–100) to enable cross-comparison.  
-4. **Scoring** – Countries are scored for each pillar across industries.  
-5. **Aggregation** – Pillar scores roll up into industry scores, which combine into a final country-level CIVI score.  
+The Explore page serves as the primary entry point for visualising the CIVI data. It features an interactive world map where users can:
 
-# Data Sources
+- **Visualise Country Scores:** Hover over any country to see its overall CIVI score and a breakdown across the four pillars (Autonomy, Resilience, Sustainability, Effectiveness).
+- **Filter by Industry and Pillar:** Use dropdown menus to filter the map display, showing how countries perform in specific industries (e.g., Energy, Healthcare) or within particular pillars.
+- **Dynamic Data Display:** The map dynamically updates to reflect the selected filters, providing a quick and intuitive way to understand global critical infrastructure landscapes.
+- **Tabular Data Exploration (Full-Featured Mode):** In the full-featured version (requiring a backend), you can explore the raw data in a paginated, filterable table. This allows for granular analysis and data export.
 
-CIVI leverages **trusted global datasets** from institutions such as:  
+<p align="center">
+  <img src="assets/screenshots/civi_explore_choose.png" width="600" />
+  <p align="center">The user can choose between exploring the data in tabular or global formats.</p>
+</p>
 
-- World Bank  
-- International Monetary Fund (IMF)  
-- Food and Agriculture Organization (FAO)  
-- International Energy Agency (IEA)  
-- World Health Organization (WHO)  
-- International Telecommunication Union (ITU)  
-- Organisation for Economic Co-operation and Development (OECD)  
-- United Nations (UN)  
+<p align="center">
+  <img src="assets/screenshots/civi_explore_01.png" width="600" />
+  <p align="center">Exploring in the global format.</p>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/civi_explore_02.png" width="600" />
+  <p align="center">Exploring the modal data for a specific country in the global format.</p>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/civi_explore_tabular_1.png" width="600" />
+  <p align="center">Exploring the data in the tabular format.</p>
+</p>
+
+### Analyse
+
+The Analyse page offers a deeper dive into historical trends and comparative analysis. On this page, users can:
+
+- **Historical Data & Comparison:** Select multiple countries, industries, and pillars to compare their historical CIVI scores over time.
+- **Customisable Line Colors:** For each selected data series, users can choose a custom line color using an integrated color picker, both before adding to the comparison and after. This allows for personalised and clear visualisation of comparative data.
+- **Dynamic Charting:** The page features a dynamic line chart that visualises the selected historical data, making it easy to identify trends and compare performance across different selections.
+- **Flexible Timeframe:** Adjust the start and end years to focus on specific periods of interest for historical analysis.
+
+<p align="center">
+  <img src="assets/screenshots/civi_analyse_02.png" width="600" />
+  <p align="center">Choosing the data series to plot.</p>
+</p>
+<p align="center">
+  <img src="assets/screenshots/civi_analyse_01.png" width="600" />
+  <p align="center">Viewing a comparison of data series.</p>
+</p>
+
+### Case Studies
+
+The Case Studies page allows you to explore in-depth articles and insights drawing from CIVI data to understand key trends and country-specific analyses.
+
+## Methodology
+
+The CIVI score is calculated through a multi-step process:
+
+1.  **Indicator Selection**: A curated set of indicators is chosen for each industry, aligned with the four pillars. Indicators are selected for their relevance, data availability, and global coverage.
+2.  **Data Collection**: Data is programmatically fetched from reputable international sources and stored in a PostgreSQL database.
+3.  **Normalisation**: All indicator data is normalised to a common scale (0–100) using a min-max scaling method. This allows for meaningful comparison across different metrics.
+4.  **Scoring**: For each country, normalised indicator values are weighted and aggregated to produce a score for each of the four pillars within each industry.
+5.  **Aggregation**: Pillar scores are aggregated to create an overall CIVI score for each industry, and industry scores are aggregated to produce a final, country-level CIVI index.
+
+## Data Sources
+
+CIVI is built on public data from trusted global organisations, including:
+
+- World Bank
+- Food and Agriculture Organisation (FAO) (SDMX API - partially implemented)
+- International Energy Agency (IEA)
+- World Health Organisation (WHO)
+- International Telecommunication Union (ITU)
+- International Monetary Fund (IMF)
+- Organisation for Economic Co-operation and Development (OECD)
+- United Nations (UN)
+
+## Tech Stack
+
+The CIVI project is built using the following technologies:
+
+-   **Database**: PostgreSQL
+-   **Backend**: Python, FastAPI
+-   **Frontend**: React (JavaScript)
+-   **Data Visualisation**: Chart.js, D3.js
+
 
 # Whys
 
