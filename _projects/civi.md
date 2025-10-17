@@ -63,25 +63,41 @@ The Explore page serves as the primary entry point for visualising the CIVI data
 - **Dynamic Data Display:** The map dynamically updates to reflect the selected filters, providing a quick and intuitive way to understand global critical infrastructure landscapes.
 - **Tabular Data Exploration (Full-Featured Mode):** In the full-featured version (requiring a backend), you can explore the raw data in a paginated, filterable table. This allows for granular analysis and data export.
 
-<p align="center">
-  <img src="assets/screenshots/civi_explore_choose.png" width="600" />
-  <p align="center">The user can choose between exploring the data in tabular or global formats.</p>
-</p>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/civi/civi_explore_choose.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The user can choose between exploring the data in tabular or global formats.
+</div>
 
-<p align="center">
-  <img src="assets/screenshots/civi_explore_01.png" width="600" />
-  <p align="center">Exploring in the global format.</p>
-</p>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/civi/civi_explore_01.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Exploring in the global format.
+</div>
 
-<p align="center">
-  <img src="assets/screenshots/civi_explore_02.png" width="600" />
-  <p align="center">Exploring the modal data for a specific country in the global format.</p>
-</p>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/civi/civi_explore_02.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Exploring the modal data for a specific country in the global format.
+</div>
 
-<p align="center">
-  <img src="assets/screenshots/civi_explore_tabular_1.png" width="600" />
-  <p align="center">Exploring the data in the tabular format.</p>
-</p>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/civi/civi_explore_tabular_1.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Exploring the data in the tabular format.
+</div>
 
 ### Analyse
 
@@ -92,14 +108,22 @@ The Analyse page offers a deeper dive into historical trends and comparative ana
 - **Dynamic Charting:** The page features a dynamic line chart that visualises the selected historical data, making it easy to identify trends and compare performance across different selections.
 - **Flexible Timeframe:** Adjust the start and end years to focus on specific periods of interest for historical analysis.
 
-<p align="center">
-  <img src="assets/screenshots/civi_analyse_02.png" width="600" />
-  <p align="center">Choosing the data series to plot.</p>
-</p>
-<p align="center">
-  <img src="assets/screenshots/civi_analyse_01.png" width="600" />
-  <p align="center">Viewing a comparison of data series.</p>
-</p>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/civi/civi_analyse_02.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Choosing the data series to plot.
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/civi/civi_analyse_01.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Viewing a comparison of data series.
+</div>
 
 ### Case Studies
 
