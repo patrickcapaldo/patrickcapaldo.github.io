@@ -21,8 +21,6 @@ social: true  # includes social icons at the bottom of the page
 
 My dream is to contribute to the effectivity, responsibility, and trustworthiness of autonomous systems in critical industries. As an AI Engineer at Airbus, I am working towards this dream by focusing on the implementation of autonomy in the critical transportation industry (amongst other safety-critical industries such as space and aviation).
 
-#### What I'm Up To
-
 **Work**
 
 - [AI Engineer @ Airbus](https://www.airbus.com/en/innovation/digital-transformation/artificial-intelligence): Specialising in effective **industrialisation (prototype to production) and return on investment of artificial intelligence products and services**. Extensive experience in the safety-critical and highly-regulated space and aeronautical industries.
