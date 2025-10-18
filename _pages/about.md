@@ -21,9 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 My dream is to contribute to the effectivity, responsibility, and trustworthiness of autonomous systems in critical industries. As an AI Engineer at Airbus, I am working towards this dream by focusing on the implementation of autonomy in the critical transportation industry (amongst other safety-critical industries such as space and aviation).
 
-#### Current Social Contribution
-
-The following is a summary of the ways in which I am currently trying to make the world a better place in the future, for all.
+#### What I'm Up To
 
 **Work**
 
