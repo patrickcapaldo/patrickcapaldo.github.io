@@ -53,6 +53,8 @@ CIVI spans the following 11 critical industries:
 
 ## Key Features
 
+There are three features of CIVI being Explore, Analyse, and Case Studies.
+
 ### Explore
 
 The Explore page serves as the primary entry point for visualising the CIVI data. It features an interactive world map where users can:
