@@ -25,8 +25,8 @@ export default function (eleventyConfig) {
        .sort(byStatusThenDate)
   );
 
-  eleventyConfig.addCollection("engineering", (api) =>
-    api.getFilteredByGlob("src/projects/engineering/*.md")
+  eleventyConfig.addCollection("other", (api) =>
+    api.getFilteredByGlob("src/projects/other/*.md")
        .sort(byStatusThenDate)
   );
 

@@ -61,12 +61,12 @@ permalink: /projects/
       {% endfor %}
     </div>
 
-    <!-- Other Projects Group -->
+    <!-- Other Group -->
     <div class="project-group">
       <h3 class="project-group-label">Other</h3>
       <p class="project-group-desc">Auxiliary utilities, side experiments, and legacy production environments.</p>
 
-      {% for project in collections.engineering %}
+      {% for project in collections.other %}
       {% set thumb = project | coverImage %}
       <div class="list-item" data-tags="{{ project.data.tags | join(',') }}">
         <a href="{{ project.url }}">
