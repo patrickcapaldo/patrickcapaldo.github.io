@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+---
+<div class="page">
+  <div class="post-header">
+    <a class="post-back" href="/thoughts/">← Thoughts</a>
+    <h1>{{ title }}</h1>
+    <div class="post-meta">
+      {% if tags and tags[0] %}<span class="tag">{{ tags[0] }}</span>{% endif %}
+      <span>{{ date | readableDate }}</span>
+    </div>
+  </div>
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+</div>

@@ -1,0 +1,13 @@
+{
+  "name": "patrickcapaldo",
+  "version": "1.0.0",
+  "description": "Personal website of Patrick Capaldo",
+  "type": "module",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

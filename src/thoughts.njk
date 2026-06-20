@@ -1,0 +1,59 @@
+---
+layout: layouts/base.njk
+permalink: /thoughts/
+---
+<div class="page">
+  <div class="section-header">
+    <h2>Thoughts</h2>
+    <p>Notes, essays, and observations.</p>
+  </div>
+
+  {% set allTags = collections.thoughts | uniqueTags %}
+  {% if allTags.length %}
+  <div class="tag-filter" data-filter-scope="thoughts-list">
+    <span class="tag-filter-label">Filter</span>
+    <div class="tag-filter-options">
+      {% for tag in allTags %}
+      <label class="tag-checkbox">
+        <input type="checkbox" class="tag-filter-input" value="{{ tag }}">
+        <span>{{ tag }}</span>
+      </label>
+      {% endfor %}
+    </div>
+    <button type="button" class="tag-filter-clear" hidden>Clear</button>
+  </div>
+  {% endif %}
+
+  <div class="thoughts-list" id="thoughts-list">
+    {% for thought in collections.thoughts %}
+    {% set thumb = thought | coverImage %}
+    <div class="list-item" data-tags="{{ thought.data.tags | join(',') }}">
+      <a href="{{ thought.url }}">
+        <div class="thumb-wrapper">
+          {% if thumb %}
+            <img class="item-thumb" src="{{ thumb }}" alt="" loading="lazy">
+          {% else %}
+            <div class="thumb-placeholder">—</div>
+          {% endif %}
+        </div>
+        <div class="item-body">
+          <div class="item-head-block">
+            <div class="item-meta-tag">
+              {% if thought.data.tags %}{{ thought.data.tags[0] }}{% endif %}
+            </div>
+            <span class="item-title">{{ thought.data.title }}</span>
+          </div>
+          <div class="item-desc">
+            {% if thought.data.excerpt %}{{ thought.data.excerpt }}{% endif %}
+          </div>
+          <div class="table-date-cell">
+            <span>{{ thought.date | readableDate }}</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+
+  <p class="filter-empty" id="thoughts-empty" hidden>No thoughts match the selected tags.</p>
+</div>

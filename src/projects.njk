@@ -1,0 +1,102 @@
+---
+layout: layouts/base.njk
+permalink: /projects/
+---
+<div class="page">
+  <div class="section-header">
+    <h2>Projects</h2>
+    <p>Tools, repos, and answers to questions.</p>
+  </div>
+
+  {% set allTags = collections.allProjects | uniqueTags %}
+  {% if allTags.length %}
+  <div class="tag-filter" data-filter-scope="projects-list">
+    <span class="tag-filter-label">Filter</span>
+    <div class="tag-filter-options">
+      {% for tag in allTags %}
+      <label class="tag-checkbox">
+        <input type="checkbox" class="tag-filter-input" value="{{ tag }}">
+        <span>{{ tag }}</span>
+      </label>
+      {% endfor %}
+    </div>
+    <button type="button" class="tag-filter-clear" hidden>Clear</button>
+  </div>
+  {% endif %}
+
+  <div id="projects-list">
+
+    <!-- First Principles Group -->
+    <div class="project-group">
+      <h3 class="project-group-label">First Principles</h3>
+      <p class="project-group-desc">A structured quarterly deep-dive series exploring engineering baselines, infrastructure from absolute scratch, and open-source validation protocols.</p>
+
+      {% for project in collections.firstPrinciples %}
+      {% set thumb = project | coverImage %}
+      <div class="list-item" data-tags="{{ project.data.tags | join(',') }}">
+        <a href="{{ project.url }}">
+          <div class="thumb-wrapper">
+            {% if thumb %}
+              <img class="item-thumb" src="{{ thumb }}" alt="" loading="lazy">
+            {% else %}
+              <div class="thumb-placeholder">—</div>
+            {% endif %}
+          </div>
+          <div class="item-body">
+            <div class="item-head-block">
+              <span class="item-title">{{ project.data.title }}</span>
+              {% if project.data.status %}
+                <span class="project-status status-{{ project.data.status | lower }}">{{ project.data.status }}</span>
+              {% endif %}
+            </div>
+            <div class="item-desc">
+              {% if project.data.excerpt %}{{ project.data.excerpt }}{% endif %}
+            </div>
+            <div class="table-date-cell">
+              <span>{{ project.date | readableDate }}</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- Other Projects Group -->
+    <div class="project-group">
+      <h3 class="project-group-label">Other</h3>
+      <p class="project-group-desc">Auxiliary utilities, side experiments, and legacy production environments.</p>
+
+      {% for project in collections.engineering %}
+      {% set thumb = project | coverImage %}
+      <div class="list-item" data-tags="{{ project.data.tags | join(',') }}">
+        <a href="{{ project.url }}">
+          <div class="thumb-wrapper">
+            {% if thumb %}
+              <img class="item-thumb" src="{{ thumb }}" alt="" loading="lazy">
+            {% else %}
+              <div class="thumb-placeholder">—</div>
+            {% endif %}
+          </div>
+          <div class="item-body">
+            <div class="item-head-block">
+              <span class="item-title">{{ project.data.title }}</span>
+              {% if project.data.status %}
+                <span class="project-status status-{{ project.data.status | lower }}">{{ project.data.status }}</span>
+              {% endif %}
+            </div>
+            <div class="item-desc">
+              {% if project.data.excerpt %}{{ project.data.excerpt }}{% endif %}
+            </div>
+            <div class="table-date-cell">
+              <span>{{ project.date | readableDate }}</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+
+  <p class="filter-empty" id="projects-empty" hidden>No projects match the selected tags.</p>
+</div>
