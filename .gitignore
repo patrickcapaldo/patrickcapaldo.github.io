@@ -1,0 +1,10 @@
+# Dependency folders
+node_modules/
+.json
+
+# Local build output directory
+_site/
+
+# Local configuration/OS caches
+.DS_Store
+.cache/
