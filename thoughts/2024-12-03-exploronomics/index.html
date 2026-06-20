@@ -4,8 +4,8 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Patrick X. Capaldo</title>
-  <meta name="description" content="Patrick X. Capaldo — AI/ML Engineer and autonomous systems researcher based in Bristol, UK.">
+  <title>Exploronomics · Patrick X. Capaldo</title>
+  <meta name="description" content="Exploring Global Economics.">
   <link rel="stylesheet" href="/css/style.css">
   <script>
     // Inline to avoid flash of wrong theme
@@ -22,8 +22,8 @@
   <a class="nav-name" href="/">Patrick X. Capaldo</a>
   <div class="nav-right">
     <ul class="nav-links">
-      <li><a href="/" class="active">About</a></li>
-      <li><a href="/thoughts/" >Thoughts</a></li>
+      <li><a href="/" >About</a></li>
+      <li><a href="/thoughts/" class="active">Thoughts</a></li>
       <li><a href="/projects/" >Projects</a></li>
       <li><a href="/contact/" >Contact</a></li>
     </ul>
@@ -50,45 +50,36 @@
 
 <main>
   <div class="page">
-  <!-- We change this to section-header so it copies the other pages instantly -->
-  <div class="section-header">
-    <div style="display: flex; align-items: center; justify-content: space-between; gap: 2rem; width: 100%;">
-      <div>
-        <h1>Patrick X. Capaldo</h1>
-        <p class="role" style="font-size: 0.9rem; color: var(--muted); margin-top: 0.5rem;">AI Engineer · Airbus · Bristol, UK</p>
-      </div>
-      <img class="headshot" src="/assets/img/prof_pic.jpg" alt="Patrick X. Capaldo" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; flex-shrink: 0; filter: grayscale(20%); display: block;">
+  <div class="post-header">
+    <a class="post-back" href="/thoughts/">← Thoughts</a>
+    <h1>Exploronomics</h1>
+    <div class="post-meta">
+      <span class="tag">tutorial</span>
+      <span>December 2024</span>
     </div>
   </div>
+  <div class="post-content">
+    <p><img src="/assets/img/projects/exploronomics/exploronomics_globe.png" alt=""></p>
+<p><em>Exploronomics globe.</em></p>
+<p>I'm making a tool, just for fun, to help get a feel of the economics of the countries of the world.</p>
+<p>Check it out <a href="https://patrickcapaldo.github.io/exploronomics/">here!</a>{:target=&quot;_blank&quot;}</p>
+<h2>Globe Model</h2>
+<p>I did initially try to create my own 3D model of the Earth using primitive shapes linking this to a downloadable JSON file of the all the borders of every country in the world like <a href="https://geojson-maps.kyd.au/">this</a>.</p>
+<p>However, this proved to be quite difficult and buggy and was probably going to take a very long time to get working at a minimum, let alone optimising for performance on client-side. Note that this page contains only a frontend as GitHub Pages can only serve static content, meaning no backend server can run alongside the frontend. So all the computation must be done on client-side.</p>
+<p>I stumbled across <a href="https://observablehq.com/@michael-keith/draggable-globe-in-d3">this</a> draggable globe in D3.js by Michael Keith which was exactly what I was looking for and so I simply linked to this in my code.</p>
+<h2>Data Source</h2>
+<p>The <a href="https://databank.worldbank.org/">World Bank's DataBank</a> is a no brainer for a source of data. It has just about anything you could possibly want to know about economics - although not all fields are populated for every country, but the most important ones are. I was originally planning on iteratively pulling data from this site as it updated but since this is just a static site, I settled for downloading a static collation of the most important economic factors I am interested in:</p>
+<ul>
+<li>Gross Domestic Product (GDP)</li>
+<li>GDP growth</li>
+<li>GDP per capita</li>
+<li>GDP per capita growth</li>
+<li>Inflation, consumer prices</li>
+<li>Unemployment, total</li>
+<li>Central government debt</li>
+<li>Human Capital Index (HCI)</li>
+</ul>
 
-  <div class="about-body">
-    <p>AI Engineer at Airbus in Bristol, working on autonomy in safety-critical environments, with a focus on aeronautical and space applications.</p>
-    <p class="disclaimer">All opinions are my own and do not reflect the views of my employer(s) past, present, or future.</p>
-  </div>
-
-  <div class="exp-block">
-    <p class="exp-label">Experience</p>
-
-    <div class="exp-item">
-      <span class="exp-org">Airbus</span>
-      <span class="exp-dates">2023 — present</span>
-      <span class="exp-role">AI / ML Engineer &amp; Project Manager · Bristol, UK</span>
-    </div>
-    <div class="exp-item">
-      <span class="exp-org">Satellite Vu</span>
-      <span class="exp-dates">2025</span>
-      <span class="exp-role">Cloud Operations Engineer (Satellite Telemetry) · London, UK</span>
-    </div>
-    <div class="exp-item">
-      <span class="exp-org">Lockheed Martin</span>
-      <span class="exp-dates">2023</span>
-      <span class="exp-role">Software Engineer · Adelaide, Australia</span>
-    </div>
-    <div class="exp-item">
-      <span class="exp-org">Defence Science &amp; Technology Group</span>
-      <span class="exp-dates">2021 — 2023</span>
-      <span class="exp-role">Decision System Scientist · Adelaide, Australia</span>
-    </div>
   </div>
 </div>
 
