@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: Critical Infrastructure Vitals Index (CIVI)
-date: 2025-01-01
+date: 2025-09-17
 status: active
 tags: [data, policy, visualisation]
 excerpt: A composite index that scores and ranks countries on the health of their essential infrastructure across autonomy, resilience, sustainability, and effectiveness.

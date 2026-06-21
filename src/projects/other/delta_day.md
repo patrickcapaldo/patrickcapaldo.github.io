@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: Delta Day
-date: 2025-01-01
+date: 2024-10-06
 status: archive
 tags: [productivity, desktop-app]
 excerpt: A tool to track incremental developments in skills and encourage 'doing' instead of procrastinating.

@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: Satellite Supervisor
-date: 2025-01-01
+date: 2024-08-10
 status: archive
 tags: [machine-learning, data, space]
 excerpt: Predicting the purpose of a satellite based on limited information. The purpose prediction is performed using machine learning techniques applied to satellite data.

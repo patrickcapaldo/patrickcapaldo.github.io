@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: Cura Personalis
-date: 2025-01-01
+date: 2025-01-03
 status: active
 tags: [health, privacy, web-app]
 excerpt: Monitoring and improving physical, mental, and spiritual wellbeing to support care for the whole person.

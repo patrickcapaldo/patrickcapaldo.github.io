@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: RheumActive
-date: 2025-01-01
+date: 2025-03-27
 status: active
 tags: [hardware, health, embedded]
 excerpt: A system to track the range of motion of joints in the human body, particularly for people with rheumatoid arthritis.

@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: DEPART
-date: 2025-01-01
+date: 2024-02-21
 status: archive
 tags: [machine-learning, aerospace, api]
 excerpt: Delay Estimation and Prediction for Aircraft Routing and Times - an end-to-end machine learning system for predicting flight delays and serving results through a scalable API.

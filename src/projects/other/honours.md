@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: UAV PHORESIS
-date: 2025-01-01
+date: 2021-10-18
 status: archive
 tags: [robotics, research, report]
 excerpt: A page containing the final report from my Bachelor of Engineering (Mechanical and Aerospace) Honours project.

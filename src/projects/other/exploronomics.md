@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: Exploronomics
-date: 2025-01-01
+date: 2025-06-20
 status: archive
 tags: [data, visualisation, web-app]
 excerpt: A tool to explore the economics of countries around the world.

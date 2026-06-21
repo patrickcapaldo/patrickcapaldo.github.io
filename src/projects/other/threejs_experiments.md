@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: Three.js Experiments
-date: 2025-01-01
+date: 2023-09-17
 status: archive
 tags: [web-app, graphics, experiment]
 excerpt: Having fun with three.js

@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: Simple Pendulum Simulation
-date: 2025-01-01
+date: 2020-03-24
 status: archive
 tags: [simulation, physics, python]
 excerpt: A visualisation of the simple pendulum tutorial.
