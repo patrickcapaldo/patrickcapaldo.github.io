@@ -1,7 +1,7 @@
 ---
 layout: layouts/project.njk
 title: AI Ops Simulator
-date: 2025-01-01
+date: 2025-11-05
 status: active
 tags: [cli, education, mlops]
 excerpt: A text-based command-line tool providing interactive tutorials on AI Operations tools and concepts, enabling hands-on learning in a safe, simulated environment.
