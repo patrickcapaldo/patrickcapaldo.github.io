@@ -47,11 +47,10 @@ CuraPersonalis organizes wellbeing into **three interconnected dimensions**:
 - Sleep
 
 ![](/assets/img/projects/cura_personalis/cura_personalis_physical_example_01.png)
-<div class="col-sm mt-3 mt-md-0">
-        ![](/assets/img/projects/cura_personalis/cura_personalis_physical_example_02.png)
+
+![](/assets/img/projects/cura_personalis/cura_personalis_physical_example_02.png)
 
     
-
 *Example of a Cardio log.*
 
 ## 😊 Mental Wellbeing
@@ -65,8 +64,8 @@ CuraPersonalis organizes wellbeing into **three interconnected dimensions**:
 - Efforts
 
 ![](/assets/img/projects/cura_personalis/cura_personalis_mental_example_01.png)
-<div class="col-sm mt-3 mt-md-0">
-        ![](/assets/img/projects/cura_personalis/cura_personalis_mental_example_02.png)
+
+![](/assets/img/projects/cura_personalis/cura_personalis_mental_example_02.png)
 
     
 
@@ -80,12 +79,10 @@ CuraPersonalis organizes wellbeing into **three interconnected dimensions**:
 - Quotes
 
 ![](/assets/img/projects/cura_personalis/cura_personalis_spiritual_example_01.png)
-<div class="col-sm mt-3 mt-md-0">
-        ![](/assets/img/projects/cura_personalis/cura_personalis_spiritual_example_02.png)
 
-    
-    <div class="col-sm mt-3 mt-md-0">
-        ![](/assets/img/projects/cura_personalis/cura_personalis_spiritual_example_03.png)
+![](/assets/img/projects/cura_personalis/cura_personalis_spiritual_example_02.png)
+
+![](/assets/img/projects/cura_personalis/cura_personalis_spiritual_example_03.png)
 
     
 
