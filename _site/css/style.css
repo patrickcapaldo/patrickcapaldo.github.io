@@ -174,8 +174,14 @@ main { padding-top: 52px; }
 
 /* ── COMPACT UNIFIED TABLE ROW SYSTEM (THOUGHTS & PROJECTS) ── */
 .list-item {
-  padding: 0.75rem 0;
+  padding: 0.75rem 0.6rem;
   border-bottom: 1px solid var(--rule);
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+
+.list-item:hover {
+  background: color-mix(in srgb, var(--brand-purple) 8%, transparent);
 }
 
 .list-item:last-child { border-bottom: none; }
@@ -190,7 +196,7 @@ main { padding-top: 52px; }
   width: 100%;
 }
 
-.list-item a:hover .item-title { color: var(--accent); }
+.list-item a:hover .item-title { color: var(--brand-purple); }
 
 /* Bounding thumbnail constraint box */
 .thumb-wrapper {
@@ -483,14 +489,18 @@ main { padding-top: 52px; }
   gap: 1rem;
   text-decoration: none;
   color: var(--ink);
-  font-size: 0.95rem;
-  padding: 0.9rem 0;
   border-bottom: 1px solid var(--rule);
-  transition: opacity 0.15s;
+  border-radius: 6px;
+  padding: 0.5rem 0.6rem;
+  transition: background 0.15s ease, opacity 0.15s;
 }
 
-.contact-link:hover { 
-  opacity: 0.7; 
+.contact-link:hover {
+  background: color-mix(in srgb, var(--brand-purple) 8%, transparent);
+}
+
+.contact-link:hover .contact-link-label {
+  color: var(--brand-purple);
 }
 
 .contact-link-label {
