@@ -12,7 +12,7 @@ This simulation is an example of the derivation made on [this page](https://patr
 
 ## Animation
 
-The animation shown in Figure 1 was created using the Pygame library for Python. The GitHub code for this can be found at <a href="https://github.com/patrickcapaldo/dynamics-fun/blob/main/oscillatingPendulum.py">this</a> repository.
+The animation shown in Figure 1 was created using the Pygame library for Python. The GitHub code for this can be found at <a href="https://github.com/patrickxcapaldo/dynamics-fun/blob/main/oscillatingPendulum.py">this</a> repository.
 
 ![](/assets/video/projects/simple-pendulum-animation-large-grav.mp4)
 

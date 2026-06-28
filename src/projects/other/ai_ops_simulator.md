@@ -57,7 +57,7 @@ Installation & Setup
 To get started, clone the repository and set up a Python environment:
 
 ```bash
-git clone https://github.com/patrickcapaldo/ai-ops-simulator
+git clone https://github.com/patrickxcapaldo/ai-ops-simulator
 cd ai-ops-simulator
 ```
 
@@ -109,4 +109,4 @@ help
 
 ## GitHub
 
-Click <a href='https://github.com/patrickcapaldo/ai-ops-simulator'>here</a> to find the source code on GitHub.
+Click <a href='https://github.com/patrickxcapaldo/ai-ops-simulator'>here</a> to find the source code on GitHub.

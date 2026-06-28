@@ -25,4 +25,4 @@ The main purpose of this project is to demonstrate the application of machine le
 
 # GitHub
 
-Click <a href='https://github.com/patrickcapaldo/satellite-supervisor'>here</a> to find the source code on GitHub.
+Click <a href='https://github.com/patrickxcapaldo/satellite-supervisor'>here</a> to find the source code on GitHub.

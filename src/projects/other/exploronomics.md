@@ -20,4 +20,4 @@ I have a strong interest in learning about why countries are the way they are, a
 
 # GitHub
 
-Click <a href='https://github.com/patrickcapaldo/exploronomics'>here</a> to find the source code on GitHub.
+Click <a href='https://github.com/patrickxcapaldo/exploronomics'>here</a> to find the source code on GitHub.

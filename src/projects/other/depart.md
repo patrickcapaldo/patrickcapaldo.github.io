@@ -82,4 +82,4 @@ Project Structure
 
 # GitHub
 
-Click <a href='https://github.com/patrickcapaldo/DEPART'>here</a> to find the source code on GitHub.
+Click <a href='https://github.com/patrickxcapaldo/DEPART'>here</a> to find the source code on GitHub.
